@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T09:07:47.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="XVmVmYyePDeGJhWC3XJu" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-17T09:12:27.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="gsEDGmJ-JWmVUdGB3LZC" version="17.1.3" type="github">
   <diagram id="EG5JULqEjUh79jNFLRnw" name="Page-1">
     <mxGraphModel dx="1063" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,16 +24,16 @@
         <mxCell id="bL-fC52UARsJ5Ht_kiXk-3" value="&lt;span style=&quot;font-weight: 700&quot;&gt;Super Admin&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="300" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bL-fC52UARsJ5Ht_kiXk-6" value="resource management" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="bL-fC52UARsJ5Ht_kiXk-6" value="department management" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="280" y="120" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bL-fC52UARsJ5Ht_kiXk-7" value="project management" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="bL-fC52UARsJ5Ht_kiXk-7" value="resource management" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="280" y="210" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bL-fC52UARsJ5Ht_kiXk-8" value="purchase order management" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="bL-fC52UARsJ5Ht_kiXk-8" value="delivery management" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="280" y="390" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bL-fC52UARsJ5Ht_kiXk-9" value="department&amp;nbsp;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px ; font-weight: 400&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22purchase%20order%20management%22%20style%3D%22shape%3Dellipse%3Bhtml%3D1%3BstrokeWidth%3D3%3BfontStyle%3D1%3BwhiteSpace%3Dwrap%3Balign%3Dcenter%3Bperimeter%3DellipsePerimeter%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22280%22%20y%3D%22340%22%20width%3D%22160%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;management" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="bL-fC52UARsJ5Ht_kiXk-9" value="purchase order management" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="280" y="480" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bL-fC52UARsJ5Ht_kiXk-16" value="authenticate" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
@@ -66,7 +66,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bL-fC52UARsJ5Ht_kiXk-28" value="delivery management" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+        <mxCell id="bL-fC52UARsJ5Ht_kiXk-28" value="project management" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="280" y="300" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bL-fC52UARsJ5Ht_kiXk-31" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;shadow=0;fontSize=14;jumpSize=9;" edge="1" parent="1" source="bL-fC52UARsJ5Ht_kiXk-28" target="bL-fC52UARsJ5Ht_kiXk-16">
