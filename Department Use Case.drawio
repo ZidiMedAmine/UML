@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T09:28:26.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.1.3" etag="oLwD3TX5dQaG3nZ1FOtm" type="github"><diagram id="nrzdOsc2V6H1gwax16Wy">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-17T09:40:07.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="rYH2iCmT0x5fQpD-a9tK" version="17.1.3" type="github">
+  <diagram id="nrzdOsc2V6H1gwax16Wy" name="Page-1">
+    <mxGraphModel dx="875" dy="-4240" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wux-ULanlnSaFS9LeWV--1" value="Global use case" style="shape=umlFrame;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=114;height=29;swimlaneFillColor=#ffffff;align=left;spacingLeft=5;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="444" y="4955" width="470" height="422" as="geometry" />
+        </mxCell>
+        <mxCell id="wux-ULanlnSaFS9LeWV--2" value="&lt;span style=&quot;font-weight: 700&quot;&gt;Super Admin&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="5130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wux-ULanlnSaFS9LeWV--3" value="Consult department" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="476" y="5130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wux-ULanlnSaFS9LeWV--4" value="Add department" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="721" y="4970" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wux-ULanlnSaFS9LeWV--5" value="Modify department" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="717" y="5050" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wux-ULanlnSaFS9LeWV--6" value="Delete department" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="721" y="5130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wux-ULanlnSaFS9LeWV--7" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wux-ULanlnSaFS9LeWV--3" target="wux-ULanlnSaFS9LeWV--4">
+          <mxGeometry x="0.2505" y="-21" width="160" relative="1" as="geometry">
+            <mxPoint x="603" y="5063" as="sourcePoint" />
+            <mxPoint x="763" y="5063" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wux-ULanlnSaFS9LeWV--8" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wux-ULanlnSaFS9LeWV--3" target="wux-ULanlnSaFS9LeWV--5">
+          <mxGeometry x="0.074" y="-15" width="160" relative="1" as="geometry">
+            <mxPoint x="603" y="5063" as="sourcePoint" />
+            <mxPoint x="763" y="5063" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wux-ULanlnSaFS9LeWV--9" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wux-ULanlnSaFS9LeWV--3" target="wux-ULanlnSaFS9LeWV--14">
+          <mxGeometry x="0.2388" y="6" width="160" relative="1" as="geometry">
+            <mxPoint x="603" y="5063" as="sourcePoint" />
+            <mxPoint x="763" y="5063" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wux-ULanlnSaFS9LeWV--11" value="Consult profit &amp;amp; loss" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="721" y="5290" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wux-ULanlnSaFS9LeWV--13" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wux-ULanlnSaFS9LeWV--3" target="wux-ULanlnSaFS9LeWV--11">
+          <mxGeometry x="0.5604" y="7" width="160" relative="1" as="geometry">
+            <mxPoint x="589" y="5136.08" as="sourcePoint" />
+            <mxPoint x="749" y="5136.08" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wux-ULanlnSaFS9LeWV--14" value="Consult KPI&#39;s" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="721" y="5210" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wux-ULanlnSaFS9LeWV--15" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" source="wux-ULanlnSaFS9LeWV--3" target="wux-ULanlnSaFS9LeWV--6">
+          <mxGeometry x="-0.0118" y="2" width="160" relative="1" as="geometry">
+            <mxPoint x="615" y="5155" as="sourcePoint" />
+            <mxPoint x="778" y="5152" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
