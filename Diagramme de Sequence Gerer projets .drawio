@@ -1,17 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-03-18T21:17:35.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="rrzWv7NqpiQXSvua0FeX" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-21T09:39:13.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="YMXQuehIt9sY_nzByQbs" version="17.1.3" type="github">
   <diagram id="AyhBUSCjqHSWrEC1XcgD" name="Page-1">
-    <mxGraphModel dx="397" dy="203" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="992" dy="585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Q8M-9PWr-8_WYGchIMJM-65" value="Ajouter un projet" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=16;width=154;height=26;" parent="1" vertex="1">
+          <mxGeometry x="134" y="67" width="641" height="538" as="geometry" />
+        </mxCell>
         <mxCell id="Q8M-9PWr-8_WYGchIMJM-57" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="163" y="269" width="585" height="301" as="geometry" />
+          <mxGeometry x="163" y="430" width="585" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Q8M-9PWr-8_WYGchIMJM-38" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#009900;width=45;height=30;" parent="Q8M-9PWr-8_WYGchIMJM-57" vertex="1">
-          <mxGeometry width="585" height="301" as="geometry" />
+          <mxGeometry width="585" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Q8M-9PWr-8_WYGchIMJM-41" value="[Formulaire Valide]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#009900;" parent="Q8M-9PWr-8_WYGchIMJM-57" vertex="1">
-          <mxGeometry x="93" y="6.072046109510087" width="60" height="26.02305475504323" as="geometry" />
+          <mxGeometry x="88" y="14.824207492795388" width="60" height="12.103746397694525" as="geometry" />
         </mxCell>
         <mxCell id="Q8M-9PWr-8_WYGchIMJM-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="202" y="102" width="20" height="492" as="geometry" />
@@ -104,10 +107,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q8M-9PWr-8_WYGchIMJM-36" value="afficher un message de succès&lt;br&gt;et afficher la liste des projets" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=-0.099;exitY=0.497;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.048;entryY=0.532;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Q8M-9PWr-8_WYGchIMJM-30" target="Q8M-9PWr-8_WYGchIMJM-26" edge="1">
+        <mxCell id="Q8M-9PWr-8_WYGchIMJM-36" value="afficher un message de succès" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=-0.099;exitY=0.497;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.048;entryY=0.532;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="351" y="441" as="targetPoint" />
-            <mxPoint x="523" y="441" as="sourcePoint" />
+            <mxPoint x="370.48" y="455.27600000000007" as="targetPoint" />
+            <mxPoint x="538.01" y="455.3159999999999" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -132,10 +135,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q8M-9PWr-8_WYGchIMJM-42" value="[Formulaire Invalide]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#FF5521;" parent="1" vertex="1">
-          <mxGeometry x="247" y="496" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Q8M-9PWr-8_WYGchIMJM-65" value="Ajouter un projet" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=16;width=154;height=26;" parent="1" vertex="1">
-          <mxGeometry x="134" y="67" width="641" height="538" as="geometry" />
+          <mxGeometry x="247" y="498" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
