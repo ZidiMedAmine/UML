@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T09:32:14.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="2vp23Y4TeUyrihqZmQbc" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-21T09:32:45.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="X7uCSNA3yl0exURndb2H" version="17.1.3" type="github">
   <diagram id="2ZTNEzH3Y-9pALvUkwoQ" name="Page-1">
     <mxGraphModel dx="1102" dy="508" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_mo9oIO0JPW5FLKHiI_m-24" value="Gestion projets" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=16;width=154;height=26;" vertex="1" parent="_mo9oIO0JPW5FLKHiI_m-9">
-          <mxGeometry x="-521" y="-55" width="724" height="871" as="geometry" />
+          <mxGeometry x="-507" y="-55" width="724" height="871" as="geometry" />
         </mxCell>
         <mxCell id="_mo9oIO0JPW5FLKHiI_m-70" value="" style="group" vertex="1" connectable="0" parent="_mo9oIO0JPW5FLKHiI_m-9">
           <mxGeometry x="-489" y="517" width="612" height="141" as="geometry" />
