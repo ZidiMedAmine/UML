@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-22T12:31:30.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="d0RymUVb9GK5uR1NO9UK" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-22T12:38:30.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="NwH00QKs8oMuMRGbDwCj" version="17.1.3" type="github">
   <diagram id="pMdvGQTgfd6tATdUP3s-" name="Page-1">
-    <mxGraphModel dx="410" dy="210" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="850" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="4Lf0XL2MjuKjjBDdzLdH-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="4Lf0XL2MjuKjjBDdzLdH-10" vertex="1">
           <mxGeometry x="-298.68" y="78" width="10" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="4Lf0XL2MjuKjjBDdzLdH-25" value="cliquer sur modifer un projet" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.001;entryY=0.167;rounded=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;entryPerimeter=0;" parent="4Lf0XL2MjuKjjBDdzLdH-10" edge="1">
+        <mxCell id="4Lf0XL2MjuKjjBDdzLdH-25" value="cliquer sur l&#39;icône modifier &lt;br&gt;un projet" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.001;entryY=0.167;rounded=0;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;entryPerimeter=0;" parent="4Lf0XL2MjuKjjBDdzLdH-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-447.99818181818176" y="90" as="sourcePoint" />
             <Array as="points">
