@@ -1,0 +1,939 @@
+
+entity DeliveryAttachment {
+	id UUID,
+    title String required,
+    description String,
+    file AnyBlob required,
+    date LocalDate,
+    createdBy UUID,
+}
+
+entity Iteration {
+    id UUID,
+	code String required unique,
+    number Integer required,
+    summary String required,
+    description String required,
+    status DeliveryStatus required,
+    plannedStartDate LocalDate required,
+    plannedDeliveryDate LocalDate required,
+    plannedDurationInDays Integer required,
+    startDate LocalDate,
+    deliveryDate LocalDate,
+    durationInDays Integer,
+    budget Double,
+    averageCost Double,
+    averageProfitMargin Float,
+    order Integer required,
+}
+
+entity TimeAndMaterialIteration {
+    id UUID,
+	code String required unique,
+    number Integer required,
+    summary String required,
+    description String required,
+    status DeliveryStatus required,
+    plannedStartDate LocalDate required,
+    plannedDeliveryDate LocalDate required,
+    plannedDurationInDays Integer required,
+    startDate LocalDate,
+    deliveryDate LocalDate,
+    durationInDays Integer,
+    budget Double,
+    averageCost Double,
+    averageProfitMargin Float,
+    order Integer required,
+    orderPhaseId UUID,
+}
+
+entity SupportProgramIteration {
+    id UUID,
+	code String required unique,
+    number Integer required,
+    summary String required,
+    description String required,
+    status DeliveryStatus required,
+    plannedStartDate LocalDate required,
+    plannedDeliveryDate LocalDate required,
+    plannedDurationInDays Integer required,
+    startDate LocalDate,
+    deliveryDate LocalDate,
+    durationInDays Integer,
+    budget Double,
+    averageCost Double,
+    averageProfitMargin Float,
+    order Integer required,
+    orderPhaseId UUID,
+}
+
+entity FixedPriceIteration {
+    id UUID,
+	code String required unique,
+    number Integer required,
+    summary String required,
+    description String required,
+    status DeliveryStatus required,
+    plannedStartDate LocalDate required,
+    plannedDeliveryDate LocalDate required,
+    plannedDurationInDays Integer required,
+    startDate LocalDate,
+    deliveryDate LocalDate,
+    durationInDays Integer,
+    budget Double,
+    averageCost Double,
+    averageProfitMargin Float,
+    order Integer required,
+    orderPhaseId UUID,
+    type PhaseType,
+    orderPhaseId UUID,
+}
+
+entity DeliveryActivity {
+	id UUID,
+    image ImageBlob,
+	code String required unique,
+    summary String required unique,
+    description String,
+    status DeliveryStatus required,
+    plannedStartDate LocalDate required,
+    plannedDeliveryDate LocalDate required,
+    startDate LocalDate,
+    deliveryDate LocalDate,
+    budget Double,
+    averageCost Double,
+    businessUnit UUID required,
+    jiraKey String,
+    bitbucketKey String,
+    confluenceKey String,
+    bambooKey String,
+    quickbooksKey String,
+    pipedrive String,
+    nextKey String,
+    projectSheetFileName String,
+    boardTask UUID,
+}
+
+entity OtherActivity {
+	id UUID,
+    image ImageBlob,
+	code String required unique,
+    summary String required unique,
+    description String,
+    status DeliveryStatus required,
+    plannedStartDate LocalDate required,
+    plannedDeliveryDate LocalDate required,
+    startDate LocalDate,
+    deliveryDate LocalDate,
+    budget Double,
+    averageCost Double,
+    businessUnit UUID required,
+    jiraKey String,
+    bitbucketKey String,
+    confluenceKey String,
+    bambooKey String,
+    quickbooksKey String,
+    pipedrive String,
+    nextKey String,
+    projectSheetFileName String,
+    requestor UUID,
+    boardTask UUID,
+}
+
+entity PresalesActivity {
+	id UUID,
+    image ImageBlob,
+    code String required unique,
+    summary String required unique,
+    description String,
+    status DeliveryStatus required,
+    plannedStartDate LocalDate required,
+    plannedDeliveryDate LocalDate required,
+    startDate LocalDate,
+    deliveryDate LocalDate,
+    budget Double,
+    averageCost Double,
+    businessUnit UUID required,
+    jiraKey String,
+    bitbucketKey String,
+    confluenceKey String,
+    bambooKey String,
+    quickbooksKey String,
+    pipedrive String,
+    nextKey String,
+    projectSheetFileName String,
+    dealId UUID,
+    dealName String,
+    clientId UUID,
+    clientName String,
+    requestor UUID,
+    sellerInCharge UUID,
+    boardTask UUID,
+}
+
+
+
+entity BusinessDeal {
+	id UUID,
+    image ImageBlob,
+	code String required unique,
+    summary String required unique,
+    description String,
+    status DeliveryStatus required,
+    plannedStartDate LocalDate required,
+    plannedDeliveryDate LocalDate required,
+    startDate LocalDate,
+    deliveryDate LocalDate,
+    budget Double,
+    averageCost Double,
+    businessUnit UUID required,
+    jiraKey String,
+    bitbucketKey String,
+    confluenceKey String,
+    bambooKey String,
+    quickbooksKey String,
+    pipedrive String,
+    nextKey String,
+    projectSheetFileName String,
+    internalOrder UUID required,
+    clientOrder UUID required,
+    priority SubDealPriority required,
+    lead UUID required,
+    dealType DealType required,
+    stakeholderList UUID,
+    averageProfitMargin Float,
+    reportFileDirectory UUID,
+    boardTask UUID,
+}
+
+
+entity FixedPriceDeal {
+	id UUID,
+    image ImageBlob,
+	code String required unique,
+    summary String required unique,
+    description String,
+    status DeliveryStatus required,
+    plannedStartDate LocalDate required,
+    plannedDeliveryDate LocalDate required,
+    startDate LocalDate,
+    deliveryDate LocalDate,
+    budget Double,
+    averageCost Double,
+    businessUnit UUID required,
+    jiraKey String,
+    bitbucketKey String,
+    confluenceKey String,
+    bambooKey String,
+    quickbooksKey String,
+    pipedrive String,
+    nextKey String,
+    projectSheetFileName String,
+    internalOrder UUID required,
+    clientOrder UUID required,
+    priority SubDealPriority required,
+    lead UUID required,
+    dealType DealType required,
+    stakeholderList UUID,
+    averageProfitMargin Float,
+    boardTask UUID,
+}
+entity TimeAndMaterialDeal {
+	id UUID,
+    image ImageBlob,
+	code String required unique,
+    summary String required unique,
+    description String,
+    status DeliveryStatus required,
+    plannedStartDate LocalDate required,
+    plannedDeliveryDate LocalDate required,
+    startDate LocalDate,
+    deliveryDate LocalDate,
+    budget Double,
+    averageCost Double,
+    businessUnit UUID required,
+    jiraKey String,
+    bitbucketKey String,
+    confluenceKey String,
+    bambooKey String,
+    quickbooksKey String,
+    pipedrive String,
+    nextKey String,
+    projectSheetFileName String,
+    internalOrder UUID required,
+    clientOrder UUID required,
+    priority SubDealPriority required,
+    lead UUID required,
+    dealType DealType required,
+    stakeholderList UUID,
+    averageProfitMargin Float,
+    boardTask UUID,
+}
+
+
+
+entity LicenseDeal {
+	id UUID,
+    image ImageBlob,
+	code String required unique,
+    summary String required unique,
+    description String,
+    status DeliveryStatus required,
+    plannedStartDate LocalDate required,
+    plannedDeliveryDate LocalDate required,
+    startDate LocalDate,
+    deliveryDate LocalDate,
+    budget Double,
+    averageCost Double,
+    businessUnit UUID required,
+    jiraKey String,
+    bitbucketKey String,
+    confluenceKey String,
+    bambooKey String,
+    quickbooksKey String,
+    pipedrive String,
+    nextKey String,
+    projectSheetFileName String,
+    internalOrder UUID required,
+    clientOrder UUID required,
+    priority SubDealPriority required,
+    lead UUID required,
+    dealType DealType required,
+    stakeholderList UUID,
+    averageProfitMargin Float,
+    boardTask UUID,
+
+
+    product UUID required,
+    productName UUID required,
+    license UUID required,
+    licenseName UUID required,
+    licenseType ProductLicenseType required,
+    quantity Integer required,
+
+    plannedSubscriptionStartDate LocalDate required,
+    plannedSubscriptionEndDate LocalDate,
+    subscriptionStartDate LocalDate,
+    subscriptionEndDate LocalDate,
+
+    orderBudgetLine UUID,
+    orderLicenseLine UUID,
+}
+
+entity SupportProgramDeal {
+
+	id UUID,
+    image ImageBlob,
+	code String required unique,
+    summary String required unique,
+    description String,
+    status DeliveryStatus required,
+    plannedStartDate LocalDate required,
+    plannedDeliveryDate LocalDate required,
+    startDate LocalDate,
+    deliveryDate LocalDate,
+    budget Double,
+    averageCost Double,
+    businessUnit UUID required,
+    jiraKey String,
+    bitbucketKey String,
+    confluenceKey String,
+    bambooKey String,
+    quickbooksKey String,
+    pipedrive String,
+    nextKey String,
+    projectSheetFileName String,
+    internalOrder UUID required,
+    clientOrder UUID required,
+    priority SubDealPriority required,
+    lead UUID required,
+    dealType DealType required,
+    stakeholderList UUID,
+    averageProfitMargin Float,
+    reportFileDirectory UUID,
+    boardTask UUID,
+
+    supportProgram UUID required,
+    supportProgramName String required,
+    serviceLevel UUID required,
+    serviceLevelName String required,
+    totalHours Float required,
+    limitType SupportLimitType required,
+    limitUnit LimitUnit required
+    limit Float required,
+
+    orderBudgetLine UUID,
+    orderSupportProgramLine UUID,
+}
+
+
+entity ResourcePlanning {
+	id UUID,
+	businessUnit UUID,
+    employee UUID required,
+	fromDate LocalDate required,
+    toDate LocalDate required,
+    regime Float min(1) max(100) required,
+    notes String,
+}
+
+
+entity DeliveryResourcePlanning {
+	id UUID,
+	businessUnit UUID,
+    employee UUID required,
+	fromDate LocalDate required,
+    toDate LocalDate required,
+    regime Float min(1) max(100) required,
+    deal UUID,
+    serviceType UUID required,
+    notes String,
+}
+
+entity TrainingResourcePlanning {
+	id UUID,
+	businessUnit UUID,
+    employee UUID required,
+	fromDate LocalDate required,
+    toDate LocalDate required,
+    regime Float min(1) max(100) required,
+    skillsList UUID required,
+    training UUID required,
+    notes String,
+}
+
+entity PresalesResourcePlanning {
+	id UUID,
+	businessUnit UUID,
+    employee UUID required,
+	fromDate LocalDate required,
+    toDate LocalDate required,
+    regime Float min(1) max(100) required,
+    deal UUID,
+    serviceType UUID required,
+    notes String,
+}
+
+entity LeaveResourcePlanning {
+	id UUID,
+	businessUnit UUID,
+    employee UUID required,
+	fromDate LocalDate required,
+    toDate LocalDate required,
+    regime Float min(1) max(100) required,
+    request UUID,
+    reason UUID,
+    notes String,
+}
+
+entity OtherActivitiesResourcePlanning {
+	id UUID,
+	businessUnit UUID,
+    employee UUID required,
+	fromDate LocalDate required,
+    toDate LocalDate required,
+    regime Float min(1) max(100) required,
+    description String,
+    notes String,
+}
+
+relationship OneToMany {
+	PresalesActivity{tasks} to ScopeTask{presalesActivity}
+    PresalesActivity{resourcePlanning} to PresalesResourcePlanning{presalesActivity}
+    BusinessDeal{resourcePlanning} to DeliveryResourcePlanning{presalesActivity}
+    OtherActivity{resourcePlanning} to OtherActivitiesResourcePlanning{presalesActivity}
+    OtherActivityCategory{activities} to OtherActivity{category required}
+}
+
+entity OtherActivityCategory {
+	id UUID,
+    name String required unique,
+	description String,
+}
+
+enum TaskPriority {
+    LOW, NORMAL, IMPORTANT, CRITICAL
+}
+
+entity SubscriptionLine {
+	id UUID,
+	code String required unique,
+    subscriptionFromDate LocalDate required,
+    subscriptionToDate LocalDate required,
+    netPrice Double,
+    totalPrice Double,
+    invoice UUID,
+    status SubscriptionLineStatus,
+    boardTask UUID,
+}
+
+entity PriceAdjustment {
+	id UUID,
+    date LocalDate required,
+    summary String required,
+    netOldPrice Double required,
+    totalOldPrice Double required,
+    netNewPrice Double required,
+    totalNewPrice Double required,
+}
+
+entity LicenseTask {
+	id UUID,
+	code String required unique,
+	summary String required,
+    estimation Float required,
+    status DeliveryStatus required,
+    serviceType UUID required,
+    serviceName String required,
+    date LocalDate,
+    dueDate LocalDate,
+    notes String,
+    order Integer,
+    assignee UUID,
+    boardTask UUID,
+}
+
+entity SupportTask {
+	id UUID,
+	code String required unique,
+	summary String required,
+    description String required,
+    status DeliveryStatus required,
+    estimation Float required,
+    serviceType UUID required,
+    serviceName String required,
+    ticketType UUID required,
+    ticketPriority UUID required,
+    businessUnit UUID required,
+    date LocalDate,
+    dueDate LocalDate,
+    type String,
+    priority String,
+    notes String,
+    order Integer,
+    assignee UUID,
+    boardTask UUID,
+}
+
+entity TimeTask {
+	id UUID,
+    summary String required,
+    status DeliveryStatus required,
+	code String required unique,
+    serviceType UUID required,
+    serviceName String required,
+	fromDate LocalDate required,
+    toDate LocalDate required,
+    regime Float required,
+    businessUnit UUID required,
+    notes String,
+    order Integer,
+    assignee UUID,
+	orderTaskId UUID,
+    packagedOffer UUID,
+    boardTask UUID,
+}
+
+entity Task {
+	id UUID,
+	code String required unique,
+	summary String required,
+	description String required,
+	assignee UUID,
+    status DeliveryStatus required,
+    estimation Float required,
+    businessUnit UUID required,
+    priority TaskPriority,
+    notes String,
+    order Integer,
+    assignee UUID,
+    orderTaskId UUID,
+    serviceType UUID required,
+    serviceName String required,
+}
+
+entity ScopeTask {
+	id UUID,
+	code String required unique,
+	summary String required,
+	description String required,
+	assignee UUID,
+    status DeliveryStatus required,
+    estimation Float required,
+    businessUnit UUID required,
+    priority TaskPriority,
+    notes String,
+    order Integer,
+    assignee UUID,
+    orderTaskId UUID,
+    serviceType UUID required,
+    serviceName String required,
+    orderTaskId UUID,
+    orderTaskId UUID,
+}
+
+entity LicenseTask {
+	id UUID,
+	code String required unique,
+	summary String required,
+	description String required,
+	assignee UUID,
+    status DeliveryStatus required,
+    estimation Float required,
+    businessUnit UUID required,
+    priority TaskPriority,
+    notes String,
+    order Integer,
+    assignee UUID,
+    orderTaskId UUID,
+    serviceType UUID required,
+    serviceName String required,
+}
+
+entity SupportTask {
+	id UUID,
+	code String required unique,
+	summary String required,
+	description String required,
+	assignee UUID,
+    status DeliveryStatus required,
+    estimation Float required,
+    businessUnit UUID required,
+    priority TaskPriority,
+    notes String,
+    order Integer,
+    assignee UUID,
+    orderTaskId UUID,
+    serviceType UUID required,
+    serviceName String required,
+    orderTaskId UUID,
+    ticketType UUID required,
+    ticketPriority UUID required,
+    dueDate LocalDate,
+    type String,
+    priority String,
+}
+
+entity TimeTask {
+	id UUID,
+	code String required unique,
+	summary String required,
+	description String required,
+	assignee UUID,
+    status DeliveryStatus required,
+    estimation Float required,
+    businessUnit UUID required,
+    priority TaskPriority,
+    notes String,
+    order Integer,
+    assignee UUID,
+    orderTaskId UUID,
+    serviceType UUID required,
+    serviceName String required,
+	fromDate LocalDate required,
+    toDate LocalDate required,
+    regime Float required,
+	orderTaskId UUID,
+}
+
+entity DealLink {
+	id UUID,
+    icon ImageBlob required,
+    title String required,
+    link String required,
+    info String,
+}
+
+entity BlockReason {
+	id UUID,
+    reporter UUID required,
+    reason String required,
+    type BlockCauseType required,
+    impact Integer min(1) max(3) required,
+    resolutionAction String required,
+    assignee UUID,
+    status BlockStatus required
+	date LocalDate required,
+    resolutionDate LocalDate,
+}
+
+entity Retrospective {
+	id UUID,
+    reporter UUID required,
+    date LocalDate required,
+    subject String required,
+	proposition String required,
+    type RetrospectiveType,
+    status RetrospectiveStatus,
+}
+
+enum RetrospectiveType {
+	IMPROVEMENT, CAPITALIZATION
+}
+
+entity RetrospectiveCategory {
+	id UUID,
+    name String required
+    description String required
+}
+
+entity BudgetLine {
+	id UUID,
+	code String required unique,
+    itemType ItemType,
+    itemName String required,
+    item UUID required,
+    unitPrice Float required,
+    quantity Float required,
+    discount Float,
+    discountType ValueType,
+    totalPrice Double required,
+    averageHourCost Double,
+    averageCost Double,
+    averageProfitMargin Float,
+    notes String,
+    order Integer,
+    orderBudgetLine UUID,
+    packagedOffer UUID,
+}
+
+entity Expense {
+	id UUID,
+	code String required unique,
+    requester UUID required,
+    requestDate LocalDate,
+    request UUID,
+    summary String required,
+	netAmount Float required,
+    totalAmount Float required,
+    expenseDate LocalDate,
+    invoice UUID,
+    date LocalDate required,
+    notes String,
+}
+
+entity ExpenseCategory {
+	id UUID,
+    name String required
+    description String required
+}
+
+entity StakeHoldersNotification {
+	id UUID,
+    stakeHolderList UUID,
+    object String,
+    text String,
+    highlights String,
+    identifier String,
+	report String,
+    attachments String,
+    date LocalDate,
+}
+
+entity ReportLog {
+	id UUID,
+	date LocalDate required,
+	emitter UUID required,
+	subject Text,
+    text String,
+	report AnyBlob,
+    proof String,
+    date LocalDate,
+    progress Float,
+    plannedDeliveryDate LocalDate,
+}
+
+entity DeliveryNote {
+	id UUID,
+	date LocalDate required,
+	emitter UUID required,
+	subject Text,
+    text String,
+    deliveryNote AnyBlob,
+    date LocalDate,
+    progress Float,
+    plannedDeliveryDate LocalDate,
+}
+
+
+relationship ManyToMany {
+	DeliveryNote{stakeHolders} to DeliveryStakeholderIds{deliveryNotes}
+    ReportLog{stakeHolders} to DeliveryStakeholderIds{reportLogs}
+    BusinessDeal{stakeHolders} to DeliveryStakeholderIds{businessDeals}
+    FixedPriceDeal{stakeHolders} to DeliveryStakeholderIds{fixedPriceDeals}
+    TimeAndMaterialDeal{stakeHolders} to DeliveryStakeholderIds{timeAndMaterialDeals}
+    LicenseDeal{stakeHolders} to DeliveryStakeholderIds{licenseDeals}
+    SupportProgramDeal{stakeHolders} to DeliveryStakeholderIds{supportProgramDeals}
+
+
+
+
+}
+
+entity DeliveryStakeholderIds {
+	id UUID,
+    stakeholder UUID,
+}
+
+entity DeliveryAttachment {
+	id UUID,
+	name String,
+    file AnyBlob required,
+}
+
+
+enum ChangeOperation {
+	ADD, REMOVE
+}
+
+enum PhaseType {
+    SCOPING, DEVELOPMENT, DEPLOY, WARRANTY
+}
+
+enum ValueType {
+    PERCENTAGE, FIXED
+}
+
+enum ItemType {
+	LICENSE, SERVICE, SUPPORT_PROGRAM, PACKAGED_OFFER
+}
+
+enum SubscriptionLineStatus {
+	PLANNED, CURRENT, DELIVERED, CANCELLED
+}
+
+enum SubDealPriority {
+    CRITICAL, MAJOR, MINOR
+}
+
+enum SupportTicketType {
+	WITHIN_LIMIT, OFF_LIMIT
+}
+
+enum ChangeInitiator {
+    INTERNAL, EXTERNAL, SYSTEM
+}
+
+enum ChangeType {
+	ANTICIPATORY, REACTIVE
+}
+
+enum RequesterType {
+	INTERNAL, CLIENT, STAKEHOLDER
+}
+
+enum ChangeStatus {
+	DRAFT, PROPOSED, APPROVED, REJECTED, CANCELLED, COMPLETED
+}
+
+enum RiskStatus {
+	IDENTIFIED, IN_PROCESS, CLOSED
+}
+
+enum RiskResponseStatus {
+	PLANNED, IN_PROCESS, COMPLETED
+}
+
+enum DeliveryStatus {
+	PLANNED, IN_PROGRESS, DELIVERED, BLOCKED, CANCELLED
+}
+
+enum ProductLicenseType {
+	PERPETUAL_LICENSE
+	FLOATING_SUBSCRIPTION_LICENSE
+	FIXED_SUBSCRIPTION_LICENSE
+}
+
+enum LimitUnit {
+	DAY, WEEK, MONTH, QUARTER, YEAR
+}
+
+enum SupportLimitType {
+	MAN_HOURS, TICKETS
+}
+
+enum DealType {
+	TIME_AND_MATERIAL
+    FIXED_PRICE,
+    SUPPORT_PROGRAM,
+    LICENSE
+}
+
+enum ReportType {
+	PROGRESS, DELIVERY
+}
+
+enum RetrospectiveStatus {
+	OPEN, PROCESSING, CLOSED, REJECTED
+}
+
+enum BlockStatus {
+	OPEN, CLOSED
+}
+
+enum BlockCauseType {
+	INTERNAL, EXTERNAL
+}
+
+relationship OneToMany {
+	ExpenseCategory{expenses} to Expense{category required}
+	BusinessDeal{links} to DealLink{deal required}
+	ScopeTask{blockages} to BlockReason{scopeTask}
+    TimeTask{blockages} to BlockReason{timeTask}
+    SupportTask{blockages} to BlockReason{supportTasks}
+    LicenseTask{blockages} to BlockReason{licenseTask}
+    TimeAndMaterialIteration{blockages} to BlockReason{timeAndMaterialIteration}
+    FixedPriceIteration{blockages} to BlockReason{fixedPriceIteration}
+    SupportProgramIteration{blockages} to BlockReason{supportProgramIteration}
+    DeliveryActivity{blockages} to BlockReason{deliveryActivity required}
+}
+
+relationship ManyToMany {
+    ScopeTask{deliveryNotes} to DeliveryNote{scopeTasks}
+    TimeTask{deliveryNotes} to DeliveryNote{timeTasks}
+    SupportTask{deliveryNotes} to DeliveryNote{supportTasks}
+    LicenseDeal{deliveryNotes} to DeliveryNote{licenseDeals}
+}
+
+relationship OneToMany {
+	BusinessDeal{reportLogs} to ReportLog{deal required}
+    TimeAndMaterialIteration{reportLogs} to DeliveryNote{iteration}
+    BusinessDeal{deliveryNote} to DeliveryNote{deal required}
+    BusinessDeal{stakeHoldersNotification} to StakeHoldersNotification{deal}
+}
+
+relationship ManyToMany {
+	DeliveryActivity{dependsOn} to DeliveryActivity{blocks}
+}
+
+relationship OneToMany {
+	SubscriptionLine{priceAdjustment} to PriceAdjustment{subscriptionPart}
+    LicenseDeal{subscriptionPart} to SubscriptionLine{licenseDeal}
+    LicenseDeal{tickets} to LicenseTask{licenseDeal}
+    SupportProgramDeal{iterations} to SupportProgramIteration{supportProgram}
+    SupportProgramIteration{tickets} to SupportTask{iteration}
+    BusinessDeal{expenses} to Expense{deal required},
+    BusinessDeal{budget} to BudgetLine{deal required}
+    BusinessDeal{retrospectives} to Retrospective{deal required}
+    TimeAndMaterialDeal{iterations} to TimeAndMaterialIteration{deal required}
+    FixedPriceDeal{iterations} to FixedPriceIteration{deal required}
+    DeliveryActivity{attachements} to DeliveryAttachment{deliveryActivity}
+    BusinessDeal{attachements} to DeliveryAttachment{businessDeal}
+    FixedPriceDeal{attachements} to DeliveryAttachment{fixedPriceDeal}
+    TimeAndMaterialDeal{attachements} to DeliveryAttachment{timeAndMaterialDeal}
+    LicenseDeal{attachements} to DeliveryAttachment{licenseDeal}
+    SupportProgramDeal{attachements} to DeliveryAttachment{supportProgramDeal}
+}
+
+relationship ManyToOne {
+	Retrospective{category required} to RetrospectiveCategory{retrospectives }
+    ScopeTask{iteration required} to FixedPriceIteration{tasks},
+    TimeTask{iteration required} to TimeAndMaterialIteration{tasks},
+}
+
+paginate * with pagination
+service *  with serviceImpl
+angularSuffix *  with insight
+filter *
+dto * with mapstruct
+microservice * with delivery

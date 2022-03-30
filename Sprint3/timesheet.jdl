@@ -1,0 +1,210 @@
+
+entity EntryComment {
+	id UUID,
+    text String,
+    user UUID,
+    date LocalDate,
+}
+
+entity TimesheetEntry {
+	id UUID,
+    costCode String required,
+    activity UUID required,
+    activitySummary String required,
+	employee UUID required,
+    summary String required,
+    businessUnit UUID required,
+    hours Float required,
+    year Integer required,
+    monthOfYear Integer required,
+    weekOfYear Integer required,
+    dayOfYear Integer required,
+    manHourCost Float required,
+    timeType TimeType,
+    location Location,
+    createdBy UUID,
+    date LocalDate,
+    validated Boolean,
+    locked Boolean,
+    validationDate LocalDate,
+    updatedBy UUID,
+    updateDate LocalDate,
+    jiraIssueKey String,
+}
+
+@extends(timesheetEntry)
+entity OtherActivityEntry {
+    catogory UUID,
+    catogoryName String,
+}
+
+@extends(timesheetEntry)
+entity TrainingEntry {
+    trainingType TrainingType,
+    training UUID,
+    trainingName String,
+    category UUID,
+    categoryName String,
+    isTrainer Boolean,
+}
+
+@extends(timesheetEntry)
+entity HolidayEntry {
+    holidayId UUID,
+}
+
+@extends(timesheetEntry)
+entity OffEntry {
+    type String,
+    typeId UUID,
+    reason String
+    reasonId UUID,
+    category String
+    categoryId UUID,
+}
+
+@extends(timesheetEntry)
+entity SupportProgramEntry {
+    iteration UUID,
+    iterationSummary String,
+    iterationCode String,
+    task UUID,
+    taskSummary String,
+    taskCode String,
+    taskPriority String,
+    clientOrder UUID,
+    clientOrderSummary String,
+    internalOrder UUID,
+    internalOrderSummary String,
+    serviceType UUID,
+    serviceName String,
+    budgetLine UUID,
+    unitPrice Float,
+    isChange Boolean,
+}
+
+@extends(timesheetEntry)
+entity LicenseEntry {
+    iteration UUID,
+    iterationSummary String,
+    iterationCode String,
+    task UUID,
+    taskSummary String,
+    taskCode String,
+    clientOrder UUID,
+    clientOrderSummary String,
+    internalOrder UUID,
+    internalOrderSummary String,
+    serviceType UUID,
+    serviceName String,
+    product UUID,
+    productName String,
+    license UUID,
+    licenseName String,
+    isChange Boolean,
+}
+
+@extends(timesheetEntry)
+entity PresalesEntry {
+    task UUID,
+    taskSummary String,
+    taskCode String,
+	lead UUID,
+    leadName String,
+    deal UUID,
+    dealStatus String,
+    isClient Boolean,
+    dealSummary String,
+    serviceType UUID,
+    serviceName String,
+   	requestor UUID,
+    requestorName String,
+}
+
+@extends(timesheetEntry)
+entity FixedPriceEntry {
+    iteration UUID,
+    iterationSummary String,
+    iterationCode String,
+    phaseType PhaseType,
+    task UUID,
+    taskSummary String,
+    taskCode String,
+    clientOrder UUID,
+    clientOrderSummary String,
+    internalOrder UUID,
+    internalOrderSummary String,
+    serviceType UUID,
+    serviceName String,
+    budgetLine UUID,
+    unitPrice Float,
+    isChange Boolean,
+}
+
+@extends(timesheetEntry)
+entity TimeAndMaterialEntry {
+    iteration UUID,
+    iterationSummary String,
+    iterationCode String,
+    task UUID,
+    taskSummary String,
+    taskCode String,
+    clientOrder UUID,
+    clientOrderSummary String,
+    internalOrder UUID,
+    internalOrderSummary String,
+    serviceType UUID,
+    serviceName String,
+    budgetLine UUID,
+    unitPrice Float,
+    isChange Boolean,
+}
+
+entity Task {
+	id UUID,
+    jiraId String,
+	summary String,
+    boardKey String,
+    type SubTaskType,
+}
+
+enum SubTaskType {
+	BUG, US, TASK, SUB_TASK, EPIC, OTHER
+}
+
+enum Location {
+	OFFICE, REMOTE
+}
+
+enum TimeType {
+	REGULAR, OVERTIME
+}
+
+enum TrainingType {
+	SELF_LEARNING, SUPERVISED_TRAINING
+}
+
+enum PhaseType {
+    SCOPING,
+    DEVELOPMENT,
+    DEPLOY,
+    WARRANTY
+}
+
+relationship OneToMany {
+	TimesheetEntry{comments} to EntryComment{entry}
+	OtherActivityEntry to Task{otherActivityEntry}
+	FixedPriceEntry{subTasks} to Task{fixedPriceEntry}
+    TimeAndMaterialEntry{subTasks} to Task{timeAndMaterialEntry}
+    PresalesEntry{subTasks} to Task{presalesEntry}
+    LicenseEntry{subTasks} to Task{licenseEntry}
+    SupportProgramEntry{subTasks} to Task{supportProgramEntry}
+}
+
+paginate * with pagination
+service *  with serviceImpl
+angularSuffix *  with insight
+filter *
+dto * with mapstruct
+
+microservice * with timesheet

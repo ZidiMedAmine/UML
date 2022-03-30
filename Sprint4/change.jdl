@@ -1,0 +1,260 @@
+
+@detailsPage(header)
+entity RiskLog {
+	id UUID,
+    @entityIdentifier
+    code String required unique,
+    reporter UUID required,
+    @entityTitle
+    summary String required,
+    probability Integer min(1) max(3) required,
+    impact Integer min(1) max(3) required,
+    status RiskStatus required,
+    orderRiskId UUID,
+    taskId UUID,
+    iterationId UUID,
+    dealId UUID,
+}
+
+entity RiskResponse {
+	id UUID,
+    @entityIdentifier
+    code String required unique,
+    reporter UUID required,
+    assignee UUID required,
+    @entityTitle
+    summary String required,
+    status RiskResponseStatus required,
+}
+
+@detailsPage(header)
+entity ChangeCategory {
+	id UUID,
+    @entityTitle
+	name String required unique,
+    description String,
+}
+
+@detailsPage(header)
+entity RiskCategory {
+	id UUID,
+	@entityTitle
+    name String required unique,
+    description String,
+}
+
+@detailsPage(header)
+entity ChangeLog {
+	id UUID,
+    @entityIdentifier
+	code String required unique,
+    reporter UUID,
+    @entityTitle
+	summary String required,
+    description String required,
+    type ChangeType required,
+    requesterType RequesterType required,
+    clientNotified Boolean required,
+    externalStakeHoldersNotified Boolean required,
+    requestProof AnyBlob,
+    agreementProof AnyBlob,
+    status ChangeStatus required,
+    changeCost Double,
+    oldBudget Double,
+    oldAverageCost Double,
+    oldAverageProfitMargin Float,
+    newBudget Double,
+    newAverageCost Double,
+    newAverageProfitMargin Float,
+    invoice UUID,
+    plannedInvoice UUID,
+    dealId UUID,
+}
+
+entity PhaseImpact {
+	id UUID,
+    operation ChangeOperation,
+    @entityIdentifier
+    code String,
+    @entityTitle
+    summary String required,
+    oldPhaseType PhaseType required,
+    newPhaseType PhaseType required,
+    oldStartDate LocalDate required
+    oldDeliveryDate LocalDate required
+	newStartDate LocalDate required
+    newDeliveryDate LocalDate required
+    iterationId UUID,
+}
+
+entity ScopeImpact {
+	id UUID,
+    operation ChangeOperation,
+    @entityIdentifier
+    code String required unique,
+    @entityTitle
+    summary String required,
+    estimation Float required,
+    serviceType UUID required,
+    taskId UUID,
+}
+
+entity TimeImpact {
+	id UUID,
+    operation ChangeOperation,
+    @entityIdentifier
+    code String required unique,
+    @entityTitle
+    summary String required,
+    serviceType UUID required,
+	fromDate LocalDate required,
+    toDate LocalDate required,
+    @entityTitle
+    duration Float,
+    employee UUID required,
+    regime Float required
+    totalDays Float,
+    taskId UUID,
+}
+
+entity BudgetImpact {
+	id UUID,
+    operation ChangeOperation,
+    @entityIdentifier
+	code String required unique,
+    itemType ItemType,
+    itemName String required,
+    item UUID required,
+    unitPrice Float required,
+    quantity Float required,
+    discount Float,
+    discountType ValueType,
+    @entityTitle
+    totalPrice Double required,
+    budgetLineId UUID,
+}
+
+entity ResourcePlanningImpact {
+	id UUID,
+    @entityIdentifier
+	code String required unique,
+    operation ChangeOperation,
+ 	employee UUID required,
+	fromDate LocalDate required,
+    toDate LocalDate required,
+    @entityTitle
+    duration Float,
+    serviceType UUID required,
+    regime Float min(1) max(100) required,
+    ressourcePlanningLineId UUID
+}
+
+relationship OneToMany {
+	RiskCategory{riskLogs} to RiskLog{category}
+	ChangeCategory{changeLogs} to ChangeLog{category}
+    ChangeLog{timeImpacts} to TimeImpact{changeLog}
+    ChangeLog{budgetImpacts} to BudgetImpact{changeLog}
+    ChangeLog{resourcePlanningImpacts} to ResourcePlanningImpact{changeLog}
+    ChangeLog{phaseImpact} to PhaseImpact{changeLog required}
+    ChangeLog{scopeImpact} to ScopeImpact{changeLog required}
+	RiskLog{responses} to RiskResponse{riskLog required}
+}
+
+enum ChangeOperation {
+	ADD, REMOVE
+}
+
+enum PhaseType {
+    SCOPING, DEVELOPMENT, DEPLOY, WARRANTY
+}
+
+enum ValueType {
+    PERCENTAGE, FIXED
+}
+
+enum ItemType {
+	LICENSE, SERVICE, SUPPORT_PROGRAM, PACKAGED_OFFER
+}
+
+enum SubscriptionLineStatus {
+	PLANNED, CURRENT, DELIVERED, CANCELLED
+}
+
+enum SubDealPriority {
+    CRITICAL, MAJOR, MINOR
+}
+
+enum SupportTicketType {
+	WITHIN_LIMIT, OFF_LIMIT
+}
+
+enum ChangeInitiator {
+    INTERNAL, EXTERNAL, SYSTEM
+}
+
+enum ChangeType {
+	ANTICIPATORY, REACTIVE
+}
+
+enum RequesterType {
+	INTERNAL, CLIENT, STAKEHOLDER
+}
+
+enum ChangeStatus {
+	DRAFT, PROPOSED, APPROVED, REJECTED, CANCELLED, COMPLETED
+}
+
+enum RiskStatus {
+	IDENTIFIED, IN_PROCESS, CLOSED
+}
+
+enum RiskResponseStatus {
+	PLANNED, IN_PROCESS, COMPLETED
+}
+
+enum DeliveryStatus {
+	PLANNED, IN_PROGRESS, DELIVERED, BLOCKED, CANCELLED
+}
+
+enum ProductLicenseType {
+	PERPETUAL_LICENSE
+	FLOATING_SUBSCRIPTION_LICENSE
+	FIXED_SUBSCRIPTION_LICENSE
+}
+
+enum LimitUnit {
+	DAY, WEEK, MONTH, QUARTER, YEAR
+}
+
+enum SupportLimitType {
+	MAN_HOURS, TICKETS
+}
+
+enum DealType {
+	TIME_AND_MATERIAL
+    FIXED_PRICE,
+    SUPPORT_PROGRAM,
+    LICENSE
+}
+
+enum ReportType {
+	PROGRESS, DELIVERY
+}
+
+enum RetrospectiveStatus {
+	OPEN, PROCESSING, CLOSED, REJECTED
+}
+
+enum BlockStatus {
+	OPEN, CLOSED
+}
+
+enum BlockCauseType {
+	INTERNAL, EXTERNAL
+}
+
+paginate * with pagination
+service *  with serviceImpl
+filter *
+dto * with mapstruct
+microservice * with change
