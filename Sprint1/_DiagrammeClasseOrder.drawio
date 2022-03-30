@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T10:20:51.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="yAWxik2HucIkU2MDpRyk" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-30T15:55:10.567Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="HPISyfBZDSgL9f-6Ntyd" version="17.2.4" type="github">
   <diagram id="EuR3VpArMFBvW40rfFiC" name="Page-1">
-    <mxGraphModel dx="595" dy="351" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1488" dy="878" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,7 +97,7 @@
         <mxCell id="rL0a_qPyrD0AK3357CQ7-36" value="- endDate : Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;fontStyle=0" parent="rL0a_qPyrD0AK3357CQ7-29" vertex="1">
           <mxGeometry y="185" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rL0a_qPyrD0AK3357CQ7-61" value="stakeholderList" style="text;whiteSpace=wrap;html=1;" parent="rL0a_qPyrD0AK3357CQ7-29" vertex="1">
+        <mxCell id="rL0a_qPyrD0AK3357CQ7-61" value="- stakeholderList : UUID" style="text;whiteSpace=wrap;html=1;" parent="rL0a_qPyrD0AK3357CQ7-29" vertex="1">
           <mxGeometry y="211" width="150" height="28" as="geometry" />
         </mxCell>
         <mxCell id="rL0a_qPyrD0AK3357CQ7-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endSize=4;startSize=4;fontStyle=0" parent="1" source="rL0a_qPyrD0AK3357CQ7-1" target="rL0a_qPyrD0AK3357CQ7-9" edge="1">
