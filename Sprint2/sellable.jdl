@@ -1,0 +1,187 @@
+
+entity SellableItem {
+	id UUID,
+	code String required unique,
+    name String required,
+    description String,
+    unitPrice Float required,
+    vat Float required,
+    outsourced Boolean,
+    enabled Boolean,
+    details TextBlob,
+}
+
+entity DiscountRange {
+	fromUnit Float,
+    toUnit Float,
+    discount Float, 
+}
+
+@extends(sellableItem)
+entity ProductLicenseType {
+    licenseType LicenseType required,
+}
+
+@extends(sellableItem)
+entity ServiceType {
+
+}
+
+@extends(sellableItem)
+entity SupportChannel {
+	id UUID,
+	name String required unique,
+    description String
+}
+
+entity SupportCategory {
+	id UUID,
+  	code String required unique,
+	name String required,
+    logo ImageBlob,
+    description String,
+}
+
+
+
+entity SupportSLAType {
+    firstResponseTime Long required,
+    resolutionTime Long required,
+    notes String,
+}
+
+entity SupportHours {
+	id UUID,
+	day WeekDay required,
+    startHour Integer required,
+    startMinute Integer required,
+    endHour Integer required,
+    endMinute Integer required,
+    notes String,
+}
+
+enum WeekDay {
+	MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+}
+
+entity NonSupportDay {
+	id UUID,
+    name String required required,
+    description String,
+    date LocalDate required,
+    year Integer required,
+    dayOfYear Integer required
+}
+
+
+/**
+*Corrective – the process of developing changes to repair bugs or fix issues. In addition, it is the
+*process of helping to resolve usage inquiries and issues.
+*• Adaptive – adjusts the software to function in new environments, keeping it current and suitable for
+*changing enterprise needs.
+*• Perfective – adds new features or improves user interaction.
+*• Preventive – makes future changes and fixes to the software simpler to accomplish.
+**/
+entity TicketType {
+	id UUID,
+	name String required,
+    description String,
+}
+
+entity TicketPriority {
+	id UUID,
+    name String required,
+    order Integer required,
+}
+
+entity ProductProviderCategory {
+	id UUID,
+	code String required unique,
+    name String required,
+    description String,
+    fileDirectory UUID,
+}
+
+entity ProductProvider {
+	id UUID,
+	code String required unique,
+    logo ImageBlob,
+	name String required unique,
+    logoUrl String,
+	country UUID,
+	currency UUID,
+    logoUrl String,
+    description String,
+    enabled Boolean,
+    fileDirectory UUID,
+}
+
+entity Product {
+	id UUID,
+	code String required unique,
+    logo ImageBlob,
+	name String required unique,
+    description String,
+    enabled Boolean,
+    fileDirectory UUID,
+}
+
+entity ProductCategory {
+	id UUID,
+	code String required unique,
+    name String required,
+    description String,
+    enabled Boolean,
+    fileDirectory UUID,
+}
+
+
+enum LicenseType {
+	PERPETUAL_LICENSE
+	FLOATING_SUBSCRIPTION_LICENSE
+	FIXED_SUBSCRIPTION_LICENSE
+}
+
+
+entity ServiceCategory {
+	id UUID,
+	code String required unique,
+    logo ImageBlob,
+    name String required,
+    description String,
+    enabled Boolean,
+    fileDirectory UUID,
+}
+
+relationship ManyToMany {
+	SellableItem{discountRanges} to DiscountRange{sellableItems}
+}
+
+relationship ManyToOne {
+	Product{provider required} to ProductProvider{products}
+    Product{category required} to ProductCategory{products}
+    ProductLicenseType{product required} to Product{licenses}
+}
+
+relationship ManyToMany {
+	SupportSLAType{channels} to SupportChannel{supportPrograms}
+	SupportSLAType{nonSupportDays} to NonSupportDay{supportPrograms}
+}
+
+relationship OneToMany {
+	ProductProviderCategory{providers} to ProductProvider{category}
+  	ServiceCategory{serviceTypes} to ServiceType{category required}
+	SupportCategory{supportPrograms} to SupportSLAType{categories required}
+	TicketType{serviceLevels} to SupportSLAType{ticketType required}
+    TicketPriority{serviceLevels} to SupportSLAType{ticketPriority required}
+    SupportSLAType{supportHours} to SupportHours{supportProgram required}
+}
+
+
+paginate * with pagination
+service *  with serviceImpl
+dto * with mapstruct
+angularSuffix *  with insight
+filter *
+
+microservice * with sellable
