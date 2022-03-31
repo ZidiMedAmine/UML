@@ -1,0 +1,330 @@
+
+entity SkillIds {
+	id UUID,
+    skillId UUID,
+}
+
+entity Role {
+	id UUID,
+	name String required,
+    description String required,
+    defaultJobTitle String,
+    jobDescription UUID,
+    producing Boolean required,
+}
+
+entity GradeLevel {
+    id UUID,
+	name String required,
+    description String required,
+    averageYearsOfExperience Float,
+    averageYearsOfEducation Float,
+}
+
+entity IdentityCard {
+	id UUID,
+	number String required,
+    issueDate LocalDate,
+    validUntil LocalDate,
+    placeOfIssue String,
+    numericVersion ImageBlob,
+}
+
+entity Passport {
+	id UUID,
+	number String required,
+    issueDate LocalDate,
+    validUntil LocalDate,
+    placeOfIssue String,
+    numericVersion ImageBlob,
+}
+
+entity Relative {
+	id UUID,
+	fullName String required,
+    relation String required
+    phoneNumber String,
+    email String,
+    address UUID,
+}
+
+entity ServiceIds {
+	id UUID,
+    serviceId UUID,
+}
+
+entity Employee {
+	id UUID,
+	firstName String required,
+	lastName String required,
+	displayName String required,
+	jobTitle String,
+	gender Gender required,
+	civilStatus CivilStatus required,
+	birthDate LocalDate required,
+	profilePicture ImageBlob,
+	phoneNumber String required,
+    secondPhoneNumber String,
+    email String required,
+    personalEmail String,
+    preferredUsername String required,
+    socialSecurityNumber String,
+    childrenNumber Integer,
+    nationality UUID required,
+    bloodGroup BloodGroup,
+    enabled Boolean required,
+    bankAccount UUID,
+    hiringDate LocalDate required,
+    resignationDate LocalDate,
+    totalYearsOfExperience Float,
+    totalYearsOfEducation Float,
+    permanentAddress UUID,
+    actualAddress UUID,
+    office UUID,
+}
+
+entity DepartmentAssignment {
+	id UUID,	
+	startDate LocalDate required,
+    endDate LocalDate,
+    departmentId UUID,
+}
+
+entity GradeLevelAssignment {
+	id UUID,	
+	startDate LocalDate required,
+    endDate LocalDate,
+    departmentId UUID,
+}
+
+entity RoleAssignment {
+	id UUID,	
+	startDate LocalDate required,
+    endDate LocalDate,
+    departmentId UUID,
+}
+
+entity Attachment {
+	id UUID,
+    summary String required,
+    file AnyBlob required,
+}
+
+entity Resignation {
+	id UUID,
+	resignationNoticeDate LocalDate required,
+    resignationInterviewDate LocalDate,
+    plannedDepartureDate LocalDate,
+    departureDate LocalDate,
+    status ResignationStatus,
+    employeeReason String,
+    internalFeedback String,
+    destinationCompany UUID,
+}
+
+enum ResignationStatus {
+	RECEIVED, CANCELLED, CLOSED
+}
+
+entity ResignationCauseType {
+	id UUID,
+	name String required,
+    description String,
+}
+
+entity HealthInsurance {
+	id UUID,
+	name String required,
+    description String,
+}
+
+entity HealthInsuranceSubscription {
+	id UUID,
+	startDate LocalDate required,
+    cost Double required,
+    contribution Double required
+}
+
+entity ContractType {
+	id UUID,
+	name String required,
+    description String,
+    resignationNotice Integer,
+    probationPeriod Integer,
+    duration Float,
+    salaryStructureTemplate UUID,
+}
+
+entity Contract {
+	id UUID,
+	contractStartDate LocalDate required,
+    contractEndDate LocalDate required,
+    requiredResignationNoticePeriod Integer,
+    workingHoursPerWeek Integer required,
+    probationPeriod Integer required,
+    grossSalary Float required,
+    netSalary Float required,
+    overtimeCostPerHour Float,
+    contractDocument AnyBlob,
+    nda AnyBlob,
+    salaryStructure UUID,
+    currency UUID required,
+}
+
+entity Allowance {
+	id UUID,
+    amount Float required,
+    recurrence Recurrence,
+}
+
+entity AllowanceType {
+	id UUID,
+	name String required,
+	description String,
+}
+
+enum Recurrence {
+	ONCE, WEEKLY, MONTHLY, QUARTERLY, ANNUAL
+}
+
+enum BloodGroup {
+	A_POSITIVE,
+    A_NEGATIVE,
+    B_POSITIVE,
+    B_NEGATIVE,
+    O_POSITIVE,
+    O_NEGATIVE,
+    AB_POSITIVE,
+    AB_NEGATIVE
+}
+
+enum CivilStatus {
+	SINGLE,
+    MARRIED,
+    WIDOWED,
+    DIVORCED,
+    SEPARATED
+}
+
+enum Gender {
+    MALE,
+    FEMALE
+}
+
+entity LeaveRequestType {
+	id UUID,
+    name String required,
+    description String
+}
+
+entity LeaveRequest {
+	id UUID,
+    reason String required,
+    justification ImageBlob,
+    status RequestStatus required,
+    startDate LocalDate required,
+    endDate LocalDate required,
+    workingDays Float,
+    date LocalDate,
+    approvalDate LocalDate,
+    rejectionDate LocalDate,
+    cancellationDate LocalDate,
+    rejectionRaison String,
+    firstApprobation Boolean,
+    secondApprobation Boolean,
+}
+
+entity TrainingRequest {
+	id UUID,
+    summary String required,
+    date LocalDate required,
+    status RequestStatus required,
+    preferedDate LocalDate required,
+    issueDate LocalDate,
+    approvalDate LocalDate,
+    rejectionDate LocalDate,
+    cancellationDate LocalDate,
+    rejectionRaison String,
+    firstApprobation Boolean,
+    secondApprobation Boolean,
+}
+
+entity GenericRequest {
+	id UUID,
+    summary String required,
+    date LocalDate required,
+    status RequestStatus,
+    issueDate LocalDate,
+    approvalDate LocalDate,
+    rejectionDate LocalDate,
+    cancellationDate LocalDate,
+    rejectionRaison String,
+}
+
+entity TrainingType {
+	id UUID,
+	name String required,
+    description String,
+}
+
+enum RequestStatus {
+    DRAFT, PROPOSED, APPROVED, REJECTED, CANCELLED
+}
+
+relationship OneToMany {
+	LeaveRequestType{leaveRequests} to LeaveRequest{type}
+    Employee{genericRequestApprobations} to GenericRequest{approbator},
+    Employee{trainingRequestFirstApprobations} to TrainingRequest{firstApprobator},
+	Employee{trainingRequestSecondApprobations} to TrainingRequest{secondApprobator},
+    Employee{leaveRequestFirstApprobations} to LeaveRequest{firstApprobator},
+	Employee{leaveRequestSecondApprobations} to LeaveRequest{secondApprobator},
+	Employee{leaveRequests} to LeaveRequest{employee},
+    Employee{trainingRequests} to TrainingRequest{employee}
+    Employee{genericRequests} to GenericRequest{employee}
+} 
+
+relationship OneToMany {
+	AllowanceType{allowances} to Allowance{type} 
+	Employee{attachments} to Attachment{employee}
+	ResignationCauseType{resignations} to Resignation{causeType required}
+	Employee{relatives} to Relative{employee required}
+	HealthInsurance{subscriptions} to HealthInsuranceSubscription{healthInsurance required}
+    ContractType{contracts} to Contract{contractType required}
+	Employee{resignations} to Resignation{employee required}
+	Employee{contracts} to Contract{employee required}
+    Contract{nonTaxableAllowance} to Allowance{nonTaxable}
+    Role{assignments} to RoleAssignment{role}
+    GradeLevel{assignments} to GradeLevelAssignment{gradeLevel required}
+}
+
+relationship OneToOne {
+	Employee{identityCard} to IdentityCard{employee required}
+    Employee{passport} to Passport{employee required}
+	Employee{healthInsuranceSubscription} to HealthInsuranceSubscription{employee required}
+    Employee{appIntegration} to AppIntegration{employee required}
+}
+
+relationship ManyToMany {
+	TrainingRequest{skills} to SkillIds{trainingRequests}
+	Employee{services} to ServiceIds{employee}
+	Employee{skills} to SkillIds{employee}
+    Role{skills} to SkillIds{role}
+}
+
+relationship OneToOne {
+	Employee{appAccess} to AppAccess{employee}
+}
+
+relationship OneToMany {
+	Employee{departmentAssignment} to DepartmentAssignment{employee}
+    Employee{gradeLevelAssignment} to GradeLevelAssignment{employee}
+    Employee{roleAssignment} to RoleAssignment{employee}
+}
+
+paginate * with pagination
+service *  with serviceImpl
+angularSuffix *  with insight
+dto * with mapstruct
+filter *
+
+microservice * with staff

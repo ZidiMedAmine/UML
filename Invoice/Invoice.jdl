@@ -1,0 +1,240 @@
+
+entity InvoicingRequest {
+	id UUID,
+    requester UUID required,
+    date LocalDate required,
+    netAmount Double required,
+    deal UUID required,
+    deliveryNote UUID required,
+}
+
+entity TaxAndChargeTemplate {
+	id UUID,
+    name String,
+    defaultPurchase Boolean
+    defaultSales Boolean
+}
+
+entity TaxAndChargeTemplateLine {
+	id UUID,
+    account UUID,
+    name String,
+    type TaxAndChargeValueType,
+    rate Double,
+    amount Double,
+}
+
+relationship OneToMany {
+	InvoicingRequest{invoices} to SalesInvoice{invoicingRequest}
+}
+
+relationship OneToMany {
+	TaxAndChargeTemplate{templateLines} to TaxAndChargeTemplateLine{taxAndChargeTemplate}
+    TaxAndChargeTemplate{salesInvoices} to SalesInvoice{taxAndChargeTemplate}
+    TaxAndChargeTemplate{purchaseInvoices} to PurchaseInvoice{taxAndChargeTemplate}
+}
+
+entity PaymentRequest {
+	id UUID,
+	date LocalDate,
+    message String,
+	attachment UUID,
+    notes String,
+}
+
+entity Recurring {
+	id UUID,
+    startDate LocalDate,
+    endDate LocalDate,
+}
+
+entity Commission {
+	id UUID,
+	tier UUID,
+    tierType TierType,
+    commissionRate Double,
+    type CommissionValueType,
+    commissionAmount Double,
+    notes String,
+    accountingConfig UUID
+}
+
+enum TierType {
+	SUPPLIER, EMPLOYEE, CLIENT, PARTNER, BUSINESS_INTRODUCER, CONSULTANT, MEMBER, SHAREHOLDER
+}
+
+enum CommissionValueType {
+	PERCENTAGE, AMOUNT
+}
+
+entity TermsConditions {
+	id UUID,
+    terms String,
+    details String,
+    notes String,
+}
+
+entity PaymentTerms {
+	id UUID,
+    name String,
+    description String,
+    portion Float,
+    dueType DueType,
+    creditDays Integer
+}
+
+enum DueType {
+	DAYS_AFTER_INVOICE_DATE
+    DAYS_AFTER_END_OF_MONTH
+    MONTH_AFTER_END_OF_MONTH
+}
+
+entity PurchaseInvoice {
+	id UUID,
+    status InvoiceStatus,
+	supplier UUID,
+    supplierInvoiceNumber String,
+    supplierInvoiceDate String,
+    supplierInvoice UUID,
+    company UUID,
+    date LocalDate,
+    dueDate LocalDate,
+    creditCurrency UUID,
+    debitCurrency UUID,
+    exchangeRate Float,
+    discount Float,
+    discountType OrderDiscountType,
+    total Double,
+    grandTotal Double,
+    roundedAdjustment Float,
+    roundedTotal Double,
+    paymentStatus PaymentStatus,
+    notes String,
+}
+
+entity PurchaseInvoiceLine {
+	id UUID,
+	item UUID,
+    itemType String,
+    name String,
+    description String,
+    quantity Float,
+    unitPrice Double,
+    discount Float,
+    discountType OrderDiscountType,
+    accountingConfig UUID,
+    deferredAccountingConfig UUID,
+    accountingDimensionConfig UUID,
+}
+
+entity SalesInvoice {
+	id UUID,
+    status InvoiceStatus,
+	client UUID,
+    company UUID,
+    date LocalDate,
+    dueDate LocalDate,
+    clientOrder UUID,
+    clientOrderForm UUID,
+    clientOrderCode String,
+    clientOrderDate LocalDate,
+    creditCurrency UUID,
+    debitCurrency UUID,
+    exchangeRate Float,
+    discount Float,
+    discountType OrderDiscountType,
+    total Double,
+    grandTotal Double,
+    roundedAdjustment Float,
+    roundedTotal Double,
+    deliveryNote UUID,
+    paymentStatus PaymentStatus,
+    notes String,
+    accountingConfig UUID
+}
+
+entity SalesInvoiceLine {
+	id UUID,
+	sellableItem UUID,
+    itemType SellableItemType,
+    name String,
+    description String,
+    quantity Float,
+    unitPrice Double,
+    discount Float,
+    discountType OrderDiscountType,
+    accountingConfig UUID,
+    deferredAccountingConfig UUID,
+    accountingDimensionConfig UUID,
+}
+
+entity TaxAndChargeLine {
+	id UUID,
+    account UUID,
+    name String,
+    type TaxAndChargeValueType,
+    rate Double,
+    amount Double,
+    operationType TaxOperationType
+}
+
+enum TaxOperationType {
+    ADD, DEDUCT
+}
+
+enum TaxAndChargeValueType {
+	ACTUAL
+	ON_NET_TOTAL
+    ON_GRAND_TOTAL
+    ON_PREVIOUS_ROW_AMOUNT
+    ON_ITEM_QUANTITY
+}
+
+enum SellableItemType {
+	SERVICE, SUPPORT_PROGRAM, LICENSE
+}
+
+enum OrderDiscountType {
+	AMOUNT, PERCENTAGE
+}
+
+enum PaymentStatus {
+	PENDING
+    PAID,
+    LATE,
+    LITIGATION
+}
+
+enum InvoiceStatus {
+	DRAFT
+    PUBLISHED
+}
+
+relationship OneToOne {
+	SalesInvoice{subscription} to Recurring{salesInvoice}
+    PurchaseInvoice{subscription} to Recurring{purchaseInvoice}
+}
+
+relationship ManyToMany {
+    SalesInvoice{termsAndConditions} to TermsConditions{invoices}
+}
+
+relationship OneToMany {
+	SalesInvoice{commissions} to Commission{invoice}
+    PurchaseInvoice{paymentTerms} to PaymentTerms{purchaseInvoice required}
+	SalesInvoice{paymentTerms} to PaymentTerms{invoice required}
+	SalesInvoice{lines} to SalesInvoiceLine{invoice required}
+	SalesInvoice{paymentRequests} to PaymentRequest{invoice required}
+    SalesInvoice{taxAndChargeLines} to TaxAndChargeLine{salesInvoice}
+    PurchaseInvoice{taxAndChargeLines} to TaxAndChargeLine{purchaseInvoice}
+    PurchaseInvoice{lines} to PurchaseInvoiceLine{invoice required}
+}
+
+paginate * with pagination
+service *  with serviceImpl
+angularSuffix *  with insight
+filter *
+dto * with mapstruct
+
+
+microservice * with invoice

@@ -1,11 +1,8 @@
 
-@detailsPage(header)
 entity RiskLog {
 	id UUID,
-    @entityIdentifier
     code String required unique,
     reporter UUID required,
-    @entityTitle
     summary String required,
     probability Integer min(1) max(3) required,
     impact Integer min(1) max(3) required,
@@ -18,38 +15,29 @@ entity RiskLog {
 
 entity RiskResponse {
 	id UUID,
-    @entityIdentifier
     code String required unique,
     reporter UUID required,
     assignee UUID required,
-    @entityTitle
     summary String required,
     status RiskResponseStatus required,
 }
 
-@detailsPage(header)
 entity ChangeCategory {
 	id UUID,
-    @entityTitle
 	name String required unique,
     description String,
 }
 
-@detailsPage(header)
 entity RiskCategory {
 	id UUID,
-	@entityTitle
     name String required unique,
     description String,
 }
 
-@detailsPage(header)
 entity ChangeLog {
 	id UUID,
-    @entityIdentifier
 	code String required unique,
     reporter UUID,
-    @entityTitle
 	summary String required,
     description String required,
     type ChangeType required,
@@ -73,10 +61,8 @@ entity ChangeLog {
 
 entity PhaseImpact {
 	id UUID,
-    operation ChangeOperation,
-    @entityIdentifier
-    code String,
-    @entityTitle
+    operation ChangeOperation
+    code String
     summary String required,
     oldPhaseType PhaseType required,
     newPhaseType PhaseType required,
@@ -90,9 +76,7 @@ entity PhaseImpact {
 entity ScopeImpact {
 	id UUID,
     operation ChangeOperation,
-    @entityIdentifier
     code String required unique,
-    @entityTitle
     summary String required,
     estimation Float required,
     serviceType UUID required,
@@ -102,14 +86,11 @@ entity ScopeImpact {
 entity TimeImpact {
 	id UUID,
     operation ChangeOperation,
-    @entityIdentifier
     code String required unique,
-    @entityTitle
     summary String required,
     serviceType UUID required,
 	fromDate LocalDate required,
     toDate LocalDate required,
-    @entityTitle
     duration Float,
     employee UUID required,
     regime Float required
@@ -120,7 +101,6 @@ entity TimeImpact {
 entity BudgetImpact {
 	id UUID,
     operation ChangeOperation,
-    @entityIdentifier
 	code String required unique,
     itemType ItemType,
     itemName String required,
@@ -129,20 +109,17 @@ entity BudgetImpact {
     quantity Float required,
     discount Float,
     discountType ValueType,
-    @entityTitle
     totalPrice Double required,
     budgetLineId UUID,
 }
 
 entity ResourcePlanningImpact {
 	id UUID,
-    @entityIdentifier
 	code String required unique,
     operation ChangeOperation,
  	employee UUID required,
 	fromDate LocalDate required,
     toDate LocalDate required,
-    @entityTitle
     duration Float,
     serviceType UUID required,
     regime Float min(1) max(100) required,

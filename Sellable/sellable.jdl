@@ -177,6 +177,7 @@ relationship OneToMany {
     SupportSLAType{supportHours} to SupportHours{supportProgram required}
 }
 
+
 paginate * with pagination
 service *  with serviceImpl
 dto * with mapstruct
