@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T09:16:44.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="gifNhlmcpc-dXcw5DKMs" version="17.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-01T09:25:53.356Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="O-g_eG4kbYrqAZEKOxLh" version="17.3.0" type="github">
   <diagram id="bkXCnToB1hzUG0QeASGC" name="Page-1">
-    <mxGraphModel dx="2810" dy="1170" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2017" dy="702" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -530,7 +530,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="s12ok9e1yesrwG63ic8c-169" value="&lt;b&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;DealType&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=12;labelPosition=center;verticalLabelPosition=middle;container=0;swimlaneLine=1;rounded=0;sketch=0;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="-45" y="822" width="150" height="133" as="geometry" />
+          <mxGeometry x="-199" y="766" width="150" height="133" as="geometry" />
         </mxCell>
         <mxCell id="s12ok9e1yesrwG63ic8c-170" value="TIME_AND_MATERIAL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;fontStyle=0" vertex="1" parent="s12ok9e1yesrwG63ic8c-169">
           <mxGeometry y="29" width="150" height="26" as="geometry" />
@@ -547,8 +547,8 @@
         <mxCell id="s12ok9e1yesrwG63ic8c-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;endFill=1;startSize=5;endSize=5;" edge="1" parent="1" source="s12ok9e1yesrwG63ic8c-50" target="s12ok9e1yesrwG63ic8c-169">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="241" y="903" />
-              <mxPoint x="241" y="903" />
+              <mxPoint x="156" y="898" />
+              <mxPoint x="156" y="898" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -945,6 +945,26 @@
         </mxCell>
         <mxCell id="s12ok9e1yesrwG63ic8c-303" value="- description: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;fontStyle=0" vertex="1" parent="s12ok9e1yesrwG63ic8c-298">
           <mxGeometry y="81" width="166" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s12ok9e1yesrwG63ic8c-309" value="&lt;b&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;SubDealPriority&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=12;labelPosition=center;verticalLabelPosition=middle;container=0;swimlaneLine=1;rounded=0;sketch=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-34" y="766" width="150" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="s12ok9e1yesrwG63ic8c-310" value="CRITICAL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;fontStyle=0" vertex="1" parent="s12ok9e1yesrwG63ic8c-309">
+          <mxGeometry y="29" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s12ok9e1yesrwG63ic8c-311" value="MAJOR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;fontStyle=0" vertex="1" parent="s12ok9e1yesrwG63ic8c-309">
+          <mxGeometry y="55" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s12ok9e1yesrwG63ic8c-312" value="MINOR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;fontStyle=0" vertex="1" parent="s12ok9e1yesrwG63ic8c-309">
+          <mxGeometry y="81" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s12ok9e1yesrwG63ic8c-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;startSize=5;endSize=5;dashed=1;" edge="1" parent="1" source="s12ok9e1yesrwG63ic8c-50" target="s12ok9e1yesrwG63ic8c-309">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="267" y="868" />
+              <mxPoint x="267" y="868" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
