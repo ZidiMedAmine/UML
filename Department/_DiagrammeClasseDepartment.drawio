@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T11:22:26.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PF9nve9nm1n3G3eISJT8" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-02T13:06:00.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="BQmi4T9nyJOwAu9fBF-z" version="20.2.2" type="github">
   <diagram id="py8D9hM39GQcvUwsP0z1" name="Page-1">
-    <mxGraphModel dx="2585" dy="1340" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="641" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -370,9 +370,9 @@
             <mxPoint x="-1" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_XNGxKT7yUzDRA-E5yTD-28" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_XNGxKT7yUzDRA-E5yTD-24">
+        <mxCell id="_XNGxKT7yUzDRA-E5yTD-28" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_XNGxKT7yUzDRA-E5yTD-24">
           <mxGeometry x="0.8309" y="-1" relative="1" as="geometry">
-            <mxPoint x="5" y="-1" as="offset" />
+            <mxPoint x="6" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_XNGxKT7yUzDRA-E5yTD-1" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;department&lt;/span&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=12;labelPosition=center;verticalLabelPosition=middle;container=0;swimlaneLine=1;rounded=0;sketch=0;glass=0;strokeColor=#CC0000;fontColor=#CC0000;" vertex="1" parent="1">
@@ -481,6 +481,15 @@
         </mxCell>
         <mxCell id="_XNGxKT7yUzDRA-E5yTD-35" value="- website: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;fontStyle=0" vertex="1" parent="_XNGxKT7yUzDRA-E5yTD-29">
           <mxGeometry y="159" width="149" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_XNGxKT7yUzDRA-E5yTD-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#CC0000;endArrow=none;endFill=0;" edge="1" parent="1" source="_XNGxKT7yUzDRA-E5yTD-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="294" y="328.28571428571433" as="targetPoint" />
+            <mxPoint x="294.2395128552098" y="303" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_XNGxKT7yUzDRA-E5yTD-40" value="rel-department-office" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=12;labelPosition=center;verticalLabelPosition=middle;container=0;swimlaneLine=1;rounded=0;sketch=0;glass=0;strokeColor=#CC0000;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="248" width="149" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
