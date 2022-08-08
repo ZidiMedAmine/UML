@@ -1,48 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T16:21:35.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="YbXW3PB6v7tyy4nZrv5B" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-08T16:21:57.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pk_biBZNKqiREDv64t6V" version="20.2.3" type="github">
   <diagram id="nrzdOsc2V6H1gwax16Wy" name="Page-1">
-    <mxGraphModel dx="1736" dy="-3826" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2067" dy="-4069" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wux-ULanlnSaFS9LeWV--1" value="Cas d&#39;utilisation : Gerer les departements" style="shape=umlFrame;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=269;height=32;swimlaneFillColor=#ffffff;align=left;spacingLeft=5;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="340" y="4987" width="1041" height="496" as="geometry" />
+          <mxGeometry x="-380" y="5043" width="1041" height="496" as="geometry" />
         </mxCell>
         <mxCell id="3pVpzZZ7b6eztUyxwCFj-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;targetPerimeterSpacing=6;" edge="1" parent="1" source="wux-ULanlnSaFS9LeWV--2" target="wux-ULanlnSaFS9LeWV--3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wux-ULanlnSaFS9LeWV--2" value="&lt;span style=&quot;font-weight: 700&quot;&gt;Administrateur&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="380" y="5123" width="30" height="60" as="geometry" />
+          <mxGeometry x="-340" y="5179" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wux-ULanlnSaFS9LeWV--3" value="Consulter les departements" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
-          <mxGeometry x="485" y="5120" width="160" height="60" as="geometry" />
+          <mxGeometry x="-235" y="5176" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wux-ULanlnSaFS9LeWV--4" value="Ajouter une departement" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
-          <mxGeometry x="700" y="5000" width="160" height="45" as="geometry" />
+          <mxGeometry x="-20" y="5056" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wux-ULanlnSaFS9LeWV--5" value="Modifier un departement" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
-          <mxGeometry x="700" y="5080" width="160" height="45" as="geometry" />
+          <mxGeometry x="-20" y="5136" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wux-ULanlnSaFS9LeWV--6" value="Supprimer une departement" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
-          <mxGeometry x="700" y="5160" width="160" height="45" as="geometry" />
+          <mxGeometry x="-20" y="5216" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wux-ULanlnSaFS9LeWV--7" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="wux-ULanlnSaFS9LeWV--3" target="wux-ULanlnSaFS9LeWV--4" edge="1">
           <mxGeometry x="0.2354" y="-25" width="160" relative="1" as="geometry">
-            <mxPoint x="603" y="5063" as="sourcePoint" />
-            <mxPoint x="763" y="5063" as="targetPoint" />
+            <mxPoint x="-117" y="5119" as="sourcePoint" />
+            <mxPoint x="43" y="5119" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wux-ULanlnSaFS9LeWV--8" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="wux-ULanlnSaFS9LeWV--3" target="wux-ULanlnSaFS9LeWV--5" edge="1">
           <mxGeometry x="0.1493" y="-22" width="160" relative="1" as="geometry">
-            <mxPoint x="603" y="5063" as="sourcePoint" />
-            <mxPoint x="763" y="5063" as="targetPoint" />
+            <mxPoint x="-117" y="5119" as="sourcePoint" />
+            <mxPoint x="43" y="5119" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wux-ULanlnSaFS9LeWV--9" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="wux-ULanlnSaFS9LeWV--3" target="wux-ULanlnSaFS9LeWV--14" edge="1">
           <mxGeometry x="0.5581" y="7" width="160" relative="1" as="geometry">
-            <mxPoint x="603" y="5063" as="sourcePoint" />
-            <mxPoint x="763" y="5063" as="targetPoint" />
+            <mxPoint x="-117" y="5119" as="sourcePoint" />
+            <mxPoint x="43" y="5119" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -55,22 +55,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wux-ULanlnSaFS9LeWV--14" value="Consulter un departement" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
-          <mxGeometry x="700" y="5240" width="160" height="45" as="geometry" />
+          <mxGeometry x="-20" y="5296" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="wux-ULanlnSaFS9LeWV--15" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="wux-ULanlnSaFS9LeWV--3" target="wux-ULanlnSaFS9LeWV--6" edge="1">
           <mxGeometry x="0.3165" y="1" width="160" relative="1" as="geometry">
-            <mxPoint x="615" y="5155" as="sourcePoint" />
-            <mxPoint x="778" y="5152" as="targetPoint" />
+            <mxPoint x="-105" y="5211" as="sourcePoint" />
+            <mxPoint x="58" y="5208" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wux-ULanlnSaFS9LeWV--31" value="Afficher les détails" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
-          <mxGeometry x="940" y="5197" width="160" height="40" as="geometry" />
+          <mxGeometry x="220" y="5253" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wux-ULanlnSaFS9LeWV--32" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" parent="1" source="wux-ULanlnSaFS9LeWV--14" target="wux-ULanlnSaFS9LeWV--31" edge="1">
           <mxGeometry x="0.053" y="6" width="160" relative="1" as="geometry">
-            <mxPoint x="848" y="5120" as="sourcePoint" />
-            <mxPoint x="1008" y="5120" as="targetPoint" />
+            <mxPoint x="128" y="5176" as="sourcePoint" />
+            <mxPoint x="288" y="5176" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -107,22 +107,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3pVpzZZ7b6eztUyxwCFj-1" value="Gérer les ressource" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
-          <mxGeometry x="940" y="5291" width="160" height="45" as="geometry" />
+          <mxGeometry x="220" y="5347" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="3pVpzZZ7b6eztUyxwCFj-5" value="&amp;nbsp;Affecter une ressource" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
-          <mxGeometry x="1204" y="5210" width="160" height="45" as="geometry" />
+          <mxGeometry x="484" y="5266" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="3pVpzZZ7b6eztUyxwCFj-10" value="&amp;nbsp;Désaffecter une ressource" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
-          <mxGeometry x="1204" y="5279" width="160" height="45" as="geometry" />
+          <mxGeometry x="484" y="5335" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="3pVpzZZ7b6eztUyxwCFj-13" value="modifier l&#39;affectation" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
-          <mxGeometry x="1204" y="5348" width="160" height="45" as="geometry" />
+          <mxGeometry x="484" y="5404" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="3pVpzZZ7b6eztUyxwCFj-16" value="consulter l&#39;affectation" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
-          <mxGeometry x="1204" y="5417" width="160" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="3pVpzZZ7b6eztUyxwCFj-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;targetPerimeterSpacing=6;" edge="1" parent="1" source="wux-ULanlnSaFS9LeWV--1" target="wux-ULanlnSaFS9LeWV--1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="484" y="5473" width="160" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
