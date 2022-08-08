@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T20:24:33.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cDq73xAOozOFNXotf1xb" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-08T20:42:46.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="L5CKSF2KwNsIZ6_eXjDD" version="20.2.3" type="github">
   <diagram id="lqeS9QWTc5A_XZJM_jDW" name="Page-1">
-    <mxGraphModel dx="1021" dy="-3007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4340" dy="-1382" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lvj-AdMTASe0IMn5T47T-1" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;Cas d&#39;utilisation : Gerer&amp;nbsp; projets&lt;/span&gt;&lt;/div&gt;" style="shape=umlFrame;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=243;height=29;swimlaneFillColor=#ffffff;align=left;spacingLeft=5;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="307" y="4667" width="1147" height="2042" as="geometry" />
+          <mxGeometry x="307" y="4668" width="1147" height="2042" as="geometry" />
         </mxCell>
         <mxCell id="lvj-AdMTASe0IMn5T47T-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="lvj-AdMTASe0IMn5T47T-3" target="lvj-AdMTASe0IMn5T47T-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
