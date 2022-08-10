@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T15:30:36.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uIrW0p-5MfSmcOnV1ZHh" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T15:33:44.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="tpBmSmW1oyjwDx7k-HFB" version="20.2.3" type="github">
   <diagram id="GG7RsVFY-ZaRTAt75dBU" name="Page-1">
     <mxGraphModel dx="1778" dy="993" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DRZjtDO21QbI87yVFXPy-56" value="Diagramme&amp;nbsp; de séquence liste de projets TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" parent="1" vertex="1">
+          <mxGeometry x="32" y="8" width="1582" height="1017" as="geometry" />
+        </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-7" value=":TimeAndMaterial&lt;br&gt;Controler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#CC6600;strokeColor=#CC6600;" parent="1" vertex="1">
           <mxGeometry x="541" y="65" width="130" height="950" as="geometry" />
         </mxCell>
@@ -73,7 +76,7 @@
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-19" value="demander list projet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="DRZjtDO21QbI87yVFXPy-18" vertex="1" connectable="0">
           <mxGeometry x="-0.3952" relative="1" as="geometry">
-            <mxPoint x="30" y="-12" as="offset" />
+            <mxPoint x="30" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-23" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;" parent="1" source="kpgrijez0biBoFg0Qp2z-3" target="DRZjtDO21QbI87yVFXPy-24" edge="1">
@@ -234,9 +237,6 @@
         <mxCell id="DRZjtDO21QbI87yVFXPy-37" value="Loop: pour &lt;br&gt;chaque&amp;nbsp;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;projet&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=105;height=40;align=left;" parent="1" vertex="1">
           <mxGeometry x="315" y="375" width="1278" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="DRZjtDO21QbI87yVFXPy-56" value="Diagramme&amp;nbsp; de séquence liste de projets TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" parent="1" vertex="1">
-          <mxGeometry x="32" y="8" width="1582" height="1017" as="geometry" />
-        </mxCell>
         <mxCell id="kpgrijez0biBoFg0Qp2z-1" value=":Serveur d&#39;application&lt;br&gt;TimeAndMaterial" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#CC6600;strokeColor=#CC6600;" vertex="1" parent="1">
           <mxGeometry x="358" y="65" width="156" height="950" as="geometry" />
         </mxCell>
@@ -262,9 +262,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kpgrijez0biBoFg0Qp2z-5" value="loadDeals()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kpgrijez0biBoFg0Qp2z-4">
+        <mxCell id="kpgrijez0biBoFg0Qp2z-5" value="loadDeals()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="kpgrijez0biBoFg0Qp2z-4">
           <mxGeometry x="-0.0064" y="-3" relative="1" as="geometry">
-            <mxPoint x="-4" y="-11" as="offset" />
+            <mxPoint x="-4" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kpgrijez0biBoFg0Qp2z-6" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;liste Projets&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="kpgrijez0biBoFg0Qp2z-3">
