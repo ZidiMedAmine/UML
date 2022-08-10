@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T15:33:44.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="tpBmSmW1oyjwDx7k-HFB" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T15:35:04.343Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pVhcf5xFlL2XFyvicNVa" version="20.2.3" type="github">
   <diagram id="GG7RsVFY-ZaRTAt75dBU" name="Page-1">
     <mxGraphModel dx="1778" dy="993" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DRZjtDO21QbI87yVFXPy-56" value="Diagramme&amp;nbsp; de séquence liste de projets TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" parent="1" vertex="1">
-          <mxGeometry x="32" y="8" width="1582" height="1017" as="geometry" />
+          <mxGeometry x="32" y="8" width="1593" height="1017" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-7" value=":TimeAndMaterial&lt;br&gt;Controler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#CC6600;strokeColor=#CC6600;" parent="1" vertex="1">
           <mxGeometry x="541" y="65" width="130" height="950" as="geometry" />
