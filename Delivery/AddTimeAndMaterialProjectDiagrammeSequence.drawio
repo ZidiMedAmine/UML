@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T15:37:21.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="nyfV7CkJOn2Q9E_N4JKJ" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T15:39:29.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Lq6ivDLvD5uC-FkUaipU" version="20.2.3" type="github">
   <diagram id="3ycZvg8SD_pY-ydtEEm7" name="Page-1">
     <mxGraphModel dx="1673" dy="934" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iKNJWcs5wsSq8HuUoyNJ-85" value="Diagramme&amp;nbsp; de séquence&amp;nbsp; ajouter projet TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" vertex="1" parent="1">
+          <mxGeometry x="12" y="8" width="1180" height="833" as="geometry" />
+        </mxCell>
         <mxCell id="iKNJWcs5wsSq8HuUoyNJ-44" value=":TimeAndMaterial&lt;br&gt;Controler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#CC6600;strokeColor=#CC6600;" vertex="1" parent="1">
           <mxGeometry x="604" y="65" width="201" height="750" as="geometry" />
         </mxCell>
@@ -86,7 +89,7 @@
         </mxCell>
         <mxCell id="iKNJWcs5wsSq8HuUoyNJ-68" value="createTimeAndMaterialActivity(deal)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="iKNJWcs5wsSq8HuUoyNJ-67">
           <mxGeometry x="0.1239" relative="1" as="geometry">
-            <mxPoint x="-14" y="-11" as="offset" />
+            <mxPoint x="-14" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iKNJWcs5wsSq8HuUoyNJ-69" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;" edge="1" parent="1" source="iKNJWcs5wsSq8HuUoyNJ-49" target="iKNJWcs5wsSq8HuUoyNJ-51">
@@ -122,9 +125,6 @@
               <mxPoint x="895" y="538" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="iKNJWcs5wsSq8HuUoyNJ-85" value="Diagramme&amp;nbsp; de séquence&amp;nbsp; ajouter projet TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" vertex="1" parent="1">
-          <mxGeometry x="12" y="8" width="1180" height="833" as="geometry" />
         </mxCell>
         <mxCell id="iKNJWcs5wsSq8HuUoyNJ-86" value=":Serveur d&#39;application&lt;br&gt;TimeAndMaterial" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#CC6600;strokeColor=#CC6600;" vertex="1" parent="1">
           <mxGeometry x="422" y="65" width="160" height="750" as="geometry" />
@@ -195,7 +195,7 @@
         </mxCell>
         <mxCell id="iKNJWcs5wsSq8HuUoyNJ-102" value="save()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=15;" vertex="1" connectable="0" parent="iKNJWcs5wsSq8HuUoyNJ-101">
           <mxGeometry x="-0.0806" y="1" relative="1" as="geometry">
-            <mxPoint x="1" y="-7" as="offset" />
+            <mxPoint x="1" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iKNJWcs5wsSq8HuUoyNJ-103" value="" style="fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;" edge="1" parent="1" source="iKNJWcs5wsSq8HuUoyNJ-100" target="iKNJWcs5wsSq8HuUoyNJ-45">
@@ -209,7 +209,7 @@
         </mxCell>
         <mxCell id="iKNJWcs5wsSq8HuUoyNJ-104" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;create(deal)&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=15;" vertex="1" connectable="0" parent="iKNJWcs5wsSq8HuUoyNJ-103">
           <mxGeometry x="0.25" relative="1" as="geometry">
-            <mxPoint x="-23" y="-7" as="offset" />
+            <mxPoint x="-23" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iKNJWcs5wsSq8HuUoyNJ-105" value="&lt;font color=&quot;#009900&quot;&gt;projet, statut 200&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=15;strokeColor=#009900;" edge="1" parent="1" source="iKNJWcs5wsSq8HuUoyNJ-45" target="iKNJWcs5wsSq8HuUoyNJ-100">
