@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T11:26:41.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="MLvm7_EyMBkWut1baKJg" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T11:28:07.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="KHAjF4hTElOMYyxIjhDG" version="20.2.3" type="github">
   <diagram id="GG7RsVFY-ZaRTAt75dBU" name="Page-1">
-    <mxGraphModel dx="2370" dy="1323" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="934" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="59" y="171" width="10" height="82" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fillColor=none;size=32;sketch=0;shadow=0;rounded=0;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="108" y="68" width="20" height="500" as="geometry" />
+          <mxGeometry x="110" y="65" width="20" height="500" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Administrateur&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="72" y="91" width="105" height="36" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry x="59" y="180" width="10" height="66" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-10" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;fontColor=#CC6600;strokeColor=#CC6600;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="68" width="65" height="500" as="geometry" />
+          <mxGeometry x="1000" y="65" width="65" height="500" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;" parent="DRZjtDO21QbI87yVFXPy-10" vertex="1">
           <mxGeometry x="27" y="188" width="10" height="45" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry x="-21" y="62" width="119" height="48" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-12" value="" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;fontColor=#CC6600;strokeColor=#CC6600;" parent="1" vertex="1">
-          <mxGeometry x="264" y="68" width="65" height="500" as="geometry" />
+          <mxGeometry x="231" y="65" width="65" height="500" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-13" value="&lt;span style=&quot;font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Interface IHM&lt;/span&gt;&lt;br style=&quot;font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;TempsEtMateriel&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=default;fontColor=#CC6600;" parent="DRZjtDO21QbI87yVFXPy-12" vertex="1">
           <mxGeometry x="-32" y="44" width="122" height="45" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry x="27.5" y="143" width="10" height="336" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-14" value=":Employee&lt;br&gt;Controler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;strokeColor=#0000CC;fontColor=#0000CC;" parent="1" vertex="1">
-          <mxGeometry x="1102" y="68" width="130" height="500" as="geometry" />
+          <mxGeometry x="1102" y="65" width="130" height="500" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;" parent="DRZjtDO21QbI87yVFXPy-14" vertex="1">
           <mxGeometry x="59" y="283" width="10" height="86" as="geometry" />
@@ -56,7 +56,7 @@
           <mxGeometry x="27.5" y="301.5" width="10" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-15" value=":Employee&lt;br&gt;Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;strokeColor=#0000CC;fontColor=#0000CC;" parent="1" vertex="1">
-          <mxGeometry x="1333" y="68" width="130" height="500" as="geometry" />
+          <mxGeometry x="1333" y="65" width="130" height="500" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;" parent="DRZjtDO21QbI87yVFXPy-15" vertex="1">
           <mxGeometry x="59" y="286" width="10" height="70" as="geometry" />
@@ -235,10 +235,10 @@
           <mxGeometry x="315" y="324" width="1278" height="164" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-56" value="Diagramme&amp;nbsp; de séquence liste de projets TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" parent="1" vertex="1">
-          <mxGeometry x="28" y="18" width="1645" height="563" as="geometry" />
+          <mxGeometry x="52" y="18" width="1578" height="563" as="geometry" />
         </mxCell>
         <mxCell id="kpgrijez0biBoFg0Qp2z-1" value=":Serveur d&#39;application&lt;br&gt;TimeAndMaterial" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#CC6600;strokeColor=#CC6600;" vertex="1" parent="1">
-          <mxGeometry x="358" y="64" width="156" height="500" as="geometry" />
+          <mxGeometry x="358" y="65" width="156" height="500" as="geometry" />
         </mxCell>
         <mxCell id="kpgrijez0biBoFg0Qp2z-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="kpgrijez0biBoFg0Qp2z-1">
           <mxGeometry x="73" y="165" width="10" height="297" as="geometry" />
