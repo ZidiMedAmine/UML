@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T11:06:47.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="J_7nAaEeDJxnP6XNSCfB" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T11:19:25.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="b8SBQBxPGvHDXF-Udd4R" version="20.2.3" type="github">
   <diagram id="DPYQryD9HJByx-QbqgJq" name="Page-1">
-    <mxGraphModel dx="3015" dy="1222" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1695" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="az-l1NDWLyZGJOckF_qO-43" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px;&quot;&gt;[&lt;span style=&quot;font-size: 15px; text-align: right;&quot;&gt;Suppression&amp;nbsp;&lt;/span&gt;non Confirmé]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF5521;" parent="az-l1NDWLyZGJOckF_qO-41" vertex="1">
           <mxGeometry x="140.00084507042254" y="658.9879627473807" width="211.6985915492958" height="46.676380072587826" as="geometry" />
         </mxCell>
-        <mxCell id="az-l1NDWLyZGJOckF_qO-1" value="Diagramme&amp;nbsp; de séquence&amp;nbsp; modifier projet TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" parent="az-l1NDWLyZGJOckF_qO-41" vertex="1">
+        <mxCell id="az-l1NDWLyZGJOckF_qO-1" value="Diagramme&amp;nbsp; de séquence&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-size: 11.5pt; line-height: 150%; font-family: Helvetica, sans-serif; background: white;&quot;&gt;supprimer&amp;nbsp;&lt;/span&gt;projet TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" parent="az-l1NDWLyZGJOckF_qO-41" vertex="1">
           <mxGeometry x="56" y="-17.277066356228172" width="1798" height="890.2770663562283" as="geometry" />
         </mxCell>
         <mxCell id="az-l1NDWLyZGJOckF_qO-3" value=":TimeAndMaterial&lt;br&gt;Controler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#CC6600;strokeColor=#CC6600;" parent="1" vertex="1">
