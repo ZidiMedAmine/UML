@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T15:09:12.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XzwVQ9_gYKlGzjFtl6v7" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T15:10:17.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QqIS5zb9V0ea0-o5Q5yv" version="20.2.3" type="github">
   <diagram id="mBNqTdyumnYbJRaconyi" name="Page-1">
     <mxGraphModel dx="1422" dy="-3882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XusRtY4HHM_x98WWNTy0-13" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XusRtY4HHM_x98WWNTy0-13" value="Cas d&#39;utilisation authentification" style="shape=umlFrame;whiteSpace=wrap;html=1;width=178;height=25;align=left;" vertex="1" parent="1">
           <mxGeometry x="25" y="4697" width="485" height="214" as="geometry" />
         </mxCell>
         <mxCell id="XusRtY4HHM_x98WWNTy0-3" value="&lt;span style=&quot;font-weight: 700&quot;&gt;Administrateur&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
