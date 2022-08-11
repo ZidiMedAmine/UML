@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T13:56:33.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="RXfr-BDqp_-NSY6XJFcc" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T13:57:27.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="rVwArDB1OmQpNEuWEqZ9" version="20.2.3" type="github">
   <diagram id="Mkl_PsdnmxrldSqLvvV-" name="Page-1">
-    <mxGraphModel dx="2249" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1134" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fcN-yEFnmqgdUuzDJul8-44" value="Diagramme&amp;nbsp; de séquence&amp;nbsp; modifier departement" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" vertex="1" parent="1">
+          <mxGeometry x="54" y="18" width="1686" height="868" as="geometry" />
+        </mxCell>
         <mxCell id="fcN-yEFnmqgdUuzDJul8-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;alt: formulaire valide&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=162;height=22;" vertex="1" parent="1">
           <mxGeometry x="83" y="360" width="404" height="125" as="geometry" />
         </mxCell>
@@ -304,7 +307,7 @@
           <mxGeometry x="60" y="152" width="10" height="106" as="geometry" />
         </mxCell>
         <mxCell id="fcN-yEFnmqgdUuzDJul8-52" value="" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;strokeColor=#0000CC;" vertex="1" parent="1">
-          <mxGeometry x="1689" y="60" width="65" height="805" as="geometry" />
+          <mxGeometry x="1641" y="60" width="65" height="805" as="geometry" />
         </mxCell>
         <mxCell id="fcN-yEFnmqgdUuzDJul8-53" value="Base de donnée&lt;br&gt;Personnel" style="text;whiteSpace=wrap;html=1;fontSize=15;align=center;fillColor=default;fontColor=#0000CC;" vertex="1" parent="fcN-yEFnmqgdUuzDJul8-52">
           <mxGeometry x="-33" y="45" width="127" height="48" as="geometry" />
@@ -393,9 +396,6 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="fcN-yEFnmqgdUuzDJul8-44" value="Diagramme&amp;nbsp; de séquence&amp;nbsp; modifier departement" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" vertex="1" parent="1">
-          <mxGeometry x="-65" y="1123" width="1736" height="868" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
