@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T14:25:16.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="CksZomzdz5C6HZmDbzmA" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T14:37:44.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wfwOO3weX34Gc3_Fb_BI" version="20.2.3" type="github">
   <diagram id="Mkl_PsdnmxrldSqLvvV-" name="Page-1">
-    <mxGraphModel dx="2844" dy="1588" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2370" dy="1323" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fcN-yEFnmqgdUuzDJul8-133" value="Diagramme&amp;nbsp; de séquence&amp;nbsp; modifier departement" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" vertex="1" parent="1">
-          <mxGeometry x="13" y="18" width="1768" height="1105" as="geometry" />
+          <mxGeometry x="13" y="18" width="1771" height="1105" as="geometry" />
         </mxCell>
         <mxCell id="fcN-yEFnmqgdUuzDJul8-66" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;alt: formulaire valide&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=162;height=22;" vertex="1" parent="1">
           <mxGeometry x="83" y="360" width="404" height="125" as="geometry" />
