@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-08-12T23:13:11.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Q9cqskaTnu3qBKWzAqKQ" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-12T23:14:12.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="lZJrAxTnS56mLRsEgrcY" version="20.2.3" type="github">
   <diagram id="6cSfCjQ-OGKTzqsPuU6-" name="Page-1">
-    <mxGraphModel dx="5688" dy="3176" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3555" dy="1985" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="M6pmH-KEsrsLaDPnZY_8-17" value="Loop: pour chaque&amp;nbsp;&lt;br&gt;departementAffectation" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;fontColor=#000000;strokeColor=default;width=166;height=39;align=left;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="338" y="385" width="1776" height="233" as="geometry" />
         </mxCell>
-        <mxCell id="RoREXrIaqBxUGJQKk7k9-2" value="Diagramme&amp;nbsp; de séquence gestion departments TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=470;height=26;" parent="1" vertex="1">
+        <mxCell id="RoREXrIaqBxUGJQKk7k9-2" value="Diagramme&amp;nbsp; de séquence liste employees" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=470;height=26;" parent="1" vertex="1">
           <mxGeometry x="42" y="22" width="2127" height="945" as="geometry" />
         </mxCell>
         <mxCell id="RoREXrIaqBxUGJQKk7k9-3" value=":DepartementAssignment&lt;br&gt;Controler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#0000CC;strokeColor=#0000CC;" parent="1" vertex="1">
