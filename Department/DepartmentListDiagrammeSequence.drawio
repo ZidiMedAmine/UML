@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-08-12T14:27:45.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XAThdI0MUkHsb-mPak_1" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-12T23:19:24.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="xgqTPgdtHb_h2T0IdWYU" version="20.2.3" type="github">
   <diagram id="wi_vhIjVOXCjrbam6hF1" name="Page-1">
-    <mxGraphModel dx="2585" dy="1444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2370" dy="1228" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-wPtG7KYPPW0DH68cqsK-1" value="Diagramme&amp;nbsp; de séquence gestion departments TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=470;height=26;" parent="1" vertex="1">
+        <mxCell id="-wPtG7KYPPW0DH68cqsK-1" value="Diagramme&amp;nbsp; de séquence gestion departements&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=470;height=26;" parent="1" vertex="1">
           <mxGeometry x="26" y="14" width="1751" height="1017" as="geometry" />
         </mxCell>
         <mxCell id="-wPtG7KYPPW0DH68cqsK-42" value="Loop: pour chaque&lt;br&gt;&lt;div style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;departement&lt;/span&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=144;height=45;align=left;" parent="1" vertex="1">
