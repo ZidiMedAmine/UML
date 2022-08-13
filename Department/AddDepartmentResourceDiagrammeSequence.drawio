@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-08-13T12:16:49.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="NIGPfUxb-PB88nDuw3Ex" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-13T12:17:27.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="suL2JPNyN7pnANpYVuQw" version="20.2.3" type="github">
   <diagram id="1-JL5HyQBtXLgrYZD0b6" name="Page-1">
-    <mxGraphModel dx="2844" dy="5095" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3555" dy="5492" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s17OwWpf7qywDNXJ-GoW-2" value="Diagramme&amp;nbsp; de séquence&amp;nbsp;&lt;span style=&quot;font-size: 11.5pt; line-height: 150%; font-family: Helvetica, sans-serif; background: white;&quot;&gt;ajouter département affectation&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=402;height=29;" vertex="1" parent="1">
+          <mxGeometry x="8" y="13" width="2466" height="1505" as="geometry" />
+        </mxCell>
         <mxCell id="s17OwWpf7qywDNXJ-GoW-203" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;width=45;height=30;" vertex="1" parent="1">
           <mxGeometry x="29" y="488" width="2411" height="992" as="geometry" />
         </mxCell>
@@ -18,9 +21,6 @@
         </mxCell>
         <mxCell id="s17OwWpf7qywDNXJ-GoW-85" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;alt: formulaire valide&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=162;height=22;" vertex="1" parent="1">
           <mxGeometry x="84" y="348" width="366" height="125" as="geometry" />
-        </mxCell>
-        <mxCell id="s17OwWpf7qywDNXJ-GoW-2" value="Diagramme&amp;nbsp; de séquence&amp;nbsp;&lt;span style=&quot;font-size: 11.5pt; line-height: 150%; font-family: Helvetica, sans-serif; background: white;&quot;&gt;ajouter département affectation&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=402;height=29;" vertex="1" parent="1">
-          <mxGeometry x="8" y="13" width="2466" height="1505" as="geometry" />
         </mxCell>
         <mxCell id="s17OwWpf7qywDNXJ-GoW-3" value=":DepartementAssignment&lt;br&gt;Controler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#0000CC;strokeColor=#0000CC;" vertex="1" parent="1">
           <mxGeometry x="655" y="65" width="170" height="1435" as="geometry" />
@@ -799,7 +799,7 @@
             <mxPoint x="-6" y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s17OwWpf7qywDNXJ-GoW-204" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=#000000;endArrow=none;endFill=0;dashed=1;entryX=1;entryY=0.697;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s17OwWpf7qywDNXJ-GoW-5" target="s17OwWpf7qywDNXJ-GoW-203">
+        <mxCell id="s17OwWpf7qywDNXJ-GoW-204" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;strokeColor=#000000;endArrow=none;endFill=0;dashed=1;entryX=1;entryY=0.849;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s17OwWpf7qywDNXJ-GoW-5" target="s17OwWpf7qywDNXJ-GoW-203">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="123.00352941176459" y="1330.24" as="sourcePoint" />
             <mxPoint x="2451.68" y="1304.9959999999999" as="targetPoint" />
