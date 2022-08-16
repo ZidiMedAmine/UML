@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T19:39:08.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="qgdjQmzxkk1jj0hpblNf" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-16T15:52:24.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5Cxk4FrPef8aolB1FFAN" version="20.2.3" type="github">
   <diagram id="GG7RsVFY-ZaRTAt75dBU" name="Page-1">
-    <mxGraphModel dx="1736" dy="964" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1134" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -237,7 +237,7 @@
         <mxCell id="DRZjtDO21QbI87yVFXPy-37" value="Loop: pour &lt;br&gt;chaque&amp;nbsp;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;projet&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=105;height=40;align=left;" parent="1" vertex="1">
           <mxGeometry x="315" y="375" width="1278" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="kpgrijez0biBoFg0Qp2z-1" value=":Serveur d&#39;application&lt;br&gt;TimeAndMaterial" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#CC6600;strokeColor=#CC6600;" parent="1" vertex="1">
+        <mxCell id="kpgrijez0biBoFg0Qp2z-1" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;TimeAndMaterial" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#CC6600;strokeColor=#CC6600;" parent="1" vertex="1">
           <mxGeometry x="358" y="65" width="156" height="950" as="geometry" />
         </mxCell>
         <mxCell id="kpgrijez0biBoFg0Qp2z-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="kpgrijez0biBoFg0Qp2z-1" vertex="1">
