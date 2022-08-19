@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T15:52:24.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5Cxk4FrPef8aolB1FFAN" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T17:39:23.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wMkLAbMHR2ND5HNhG4ab" version="20.2.5" type="github">
   <diagram id="GG7RsVFY-ZaRTAt75dBU" name="Page-1">
-    <mxGraphModel dx="2031" dy="1134" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2044" dy="1048" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DRZjtDO21QbI87yVFXPy-56" value="Diagramme&amp;nbsp; de séquence gestion projets TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" parent="1" vertex="1">
+        <mxCell id="DRZjtDO21QbI87yVFXPy-56" value="Diagramme&amp;nbsp; de séquence gerer accord TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" parent="1" vertex="1">
           <mxGeometry x="32" y="8" width="1593" height="1017" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-7" value=":TimeAndMaterial&lt;br&gt;Controler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#CC6600;strokeColor=#CC6600;" parent="1" vertex="1">
@@ -74,7 +74,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DRZjtDO21QbI87yVFXPy-19" value="demander list projet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="DRZjtDO21QbI87yVFXPy-18" vertex="1" connectable="0">
+        <mxCell id="DRZjtDO21QbI87yVFXPy-19" value="demander list accord " style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="DRZjtDO21QbI87yVFXPy-18" vertex="1" connectable="0">
           <mxGeometry x="-0.3952" relative="1" as="geometry">
             <mxPoint x="30" y="-15" as="offset" />
           </mxGeometry>
@@ -126,7 +126,7 @@
             <mxPoint x="23" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DRZjtDO21QbI87yVFXPy-32" value="liste Projets" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=15;" parent="1" source="DRZjtDO21QbI87yVFXPy-29" target="DRZjtDO21QbI87yVFXPy-27" edge="1">
+        <mxCell id="DRZjtDO21QbI87yVFXPy-32" value="liste des Accords" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=15;" parent="1" source="DRZjtDO21QbI87yVFXPy-29" target="DRZjtDO21QbI87yVFXPy-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="806" y="342" as="sourcePoint" />
             <mxPoint x="668" y="342" as="targetPoint" />
@@ -135,7 +135,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DRZjtDO21QbI87yVFXPy-33" value="liste Projets" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=15;" parent="1" source="DRZjtDO21QbI87yVFXPy-27" target="DRZjtDO21QbI87yVFXPy-24" edge="1">
+        <mxCell id="DRZjtDO21QbI87yVFXPy-33" value="liste des Accords" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=15;" parent="1" source="DRZjtDO21QbI87yVFXPy-27" target="DRZjtDO21QbI87yVFXPy-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="658" y="347" as="sourcePoint" />
             <mxPoint x="477" y="347" as="targetPoint" />
@@ -144,7 +144,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DRZjtDO21QbI87yVFXPy-34" value="liste Projets" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=15;" parent="1" source="DRZjtDO21QbI87yVFXPy-24" target="kpgrijez0biBoFg0Qp2z-3" edge="1">
+        <mxCell id="DRZjtDO21QbI87yVFXPy-34" value="liste des Accords" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=15;" parent="1" source="DRZjtDO21QbI87yVFXPy-24" target="kpgrijez0biBoFg0Qp2z-3" edge="1">
           <mxGeometry x="-0.0189" y="-3" relative="1" as="geometry">
             <mxPoint x="479" y="359" as="sourcePoint" />
             <mxPoint x="298" y="359" as="targetPoint" />
@@ -225,7 +225,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DRZjtDO21QbI87yVFXPy-54" value="liste Projets" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=15;" parent="1" edge="1">
+        <mxCell id="DRZjtDO21QbI87yVFXPy-54" value="liste des Accords" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=15;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="258.5" y="577" as="sourcePoint" />
             <mxPoint x="119.32352941176464" y="577" as="targetPoint" />
@@ -234,7 +234,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DRZjtDO21QbI87yVFXPy-37" value="Loop: pour &lt;br&gt;chaque&amp;nbsp;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;projet&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=105;height=40;align=left;" parent="1" vertex="1">
+        <mxCell id="DRZjtDO21QbI87yVFXPy-37" value="Loop: pour &lt;br&gt;chaque&amp;nbsp;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;Accord&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=108;height=42;align=left;" parent="1" vertex="1">
           <mxGeometry x="315" y="375" width="1278" height="164" as="geometry" />
         </mxCell>
         <mxCell id="kpgrijez0biBoFg0Qp2z-1" value="&amp;lt;&amp;lt;component&amp;gt;&amp;gt;&lt;br&gt;TimeAndMaterial" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#CC6600;strokeColor=#CC6600;" parent="1" vertex="1">
@@ -267,7 +267,7 @@
             <mxPoint x="-4" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kpgrijez0biBoFg0Qp2z-6" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;liste Projets&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" source="kpgrijez0biBoFg0Qp2z-3" edge="1">
+        <mxCell id="kpgrijez0biBoFg0Qp2z-6" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;liste des Accords&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" source="kpgrijez0biBoFg0Qp2z-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="518" y="479" as="sourcePoint" />
             <mxPoint x="268.5" y="565.0000000000005" as="targetPoint" />
@@ -285,25 +285,25 @@
         <mxCell id="kpgrijez0biBoFg0Qp2z-11" value="ref" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="40" y="645" width="1550" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="kpgrijez0biBoFg0Qp2z-12" value="ajouter projet TempsEtMateriel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=15;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="kpgrijez0biBoFg0Qp2z-12" value="ajouter accord TempsEtMateriel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=15;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="675" y="653" width="283" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kpgrijez0biBoFg0Qp2z-16" value="ref" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="40" y="729" width="1550" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="kpgrijez0biBoFg0Qp2z-15" value="modifier projet TempsEtMateriel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=15;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="kpgrijez0biBoFg0Qp2z-15" value="modifier accord TempsEtMateriel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=15;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="675" y="737" width="283" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kpgrijez0biBoFg0Qp2z-17" value="ref" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="40" y="810" width="1550" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="kpgrijez0biBoFg0Qp2z-18" value="supprimer projet TempsEtMateriel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=15;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="kpgrijez0biBoFg0Qp2z-18" value="supprimer accord TempsEtMateriel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=15;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="676.5" y="818" width="283" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kpgrijez0biBoFg0Qp2z-19" value="ref" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="40" y="889" width="1550" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="kpgrijez0biBoFg0Qp2z-20" value="consulter projet TempsEtMateriel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=15;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="kpgrijez0biBoFg0Qp2z-20" value="consulter accord TempsEtMateriel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=15;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="675" y="897" width="283" height="30" as="geometry" />
         </mxCell>
       </root>
