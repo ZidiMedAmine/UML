@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T20:47:46.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HKvqAuS4rix6cbSjGGq6" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T15:53:56.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="E8Ppt9XEeXVCxhqHKZjq" version="20.2.5" type="github">
   <diagram id="lqeS9QWTc5A_XZJM_jDW" name="Page-1">
-    <mxGraphModel dx="1021" dy="-4176" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1457" dy="-3883" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,7 +92,7 @@
             <mxPoint x="32" y="23" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N78ZlKUnfoEXJBaq9vIP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;endArrow=none;verticalAlign=bottom;startArrow=open;startSize=12;dashed=1;" edge="1" parent="1" source="lvj-AdMTASe0IMn5T47T-21" target="N78ZlKUnfoEXJBaq9vIP-1">
+        <mxCell id="N78ZlKUnfoEXJBaq9vIP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;endArrow=none;verticalAlign=bottom;startArrow=open;startSize=12;dashed=1;" parent="1" source="lvj-AdMTASe0IMn5T47T-21" target="N78ZlKUnfoEXJBaq9vIP-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="905" y="5846" />
@@ -557,7 +557,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N78ZlKUnfoEXJBaq9vIP-1" value="Consulter les feuilles de temps" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+        <mxCell id="N78ZlKUnfoEXJBaq9vIP-1" value="Consulter les feuilles de temps" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
           <mxGeometry x="958" y="6796" width="181" height="51" as="geometry" />
         </mxCell>
       </root>
