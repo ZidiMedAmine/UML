@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T13:17:02.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jAlCY8XlyRCEQ3HNOvtb" version="20.2.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-20T13:20:54.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9YPG_Q-SDDZguIxNswtA" version="20.2.5" type="github" pages="3">
   <diagram id="5-bm3lcThZxIUOPdriQm" name="Page-1">
     <mxGraphModel dx="1635" dy="-5007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,7 +223,7 @@
         <mxCell id="MiiL5EzHuKexvq0bblBR-3" value="&lt;span style=&quot;font-weight: 700&quot;&gt;Administrateur&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="52" y="4941" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MiiL5EzHuKexvq0bblBR-21" value="Consulter un projet" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+        <mxCell id="MiiL5EzHuKexvq0bblBR-21" value="Consulter un accord" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
           <mxGeometry x="147" y="4948.5" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="MiiL5EzHuKexvq0bblBR-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.95;exitY=0.277;exitDx=0;exitDy=0;labelBackgroundColor=none;endArrow=none;verticalAlign=bottom;startArrow=open;startSize=12;dashed=1;exitPerimeter=0;" edge="1" parent="1" source="MiiL5EzHuKexvq0bblBR-50" target="MiiL5EzHuKexvq0bblBR-63">
