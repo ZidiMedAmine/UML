@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T13:40:49.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vnGVH4dlN3DKOWrrKlAo" version="20.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-20T13:41:18.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="dsZPBsrgjBSmFRRnNgK9" version="20.2.5" type="github" pages="2">
   <diagram id="JnQ2pK3HgWxiNNboWXtN" name="Page-1">
     <mxGraphModel dx="2751" dy="986" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1238,7 +1238,7 @@
         </mxCell>
         <mxCell id="sEvnXfBHb__BfdMJPaix-2" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;fontSize=16;" vertex="1" connectable="0" parent="sEvnXfBHb__BfdMJPaix-1">
           <mxGeometry x="-0.9807" y="1" relative="1" as="geometry">
-            <mxPoint x="-4" y="-1" as="offset" />
+            <mxPoint x="-2" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sEvnXfBHb__BfdMJPaix-3" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sEvnXfBHb__BfdMJPaix-1">
@@ -1256,7 +1256,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sEvnXfBHb__BfdMJPaix-5" value="PlanificationRessource" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=12;labelPosition=center;verticalLabelPosition=middle;container=0;swimlaneLine=1;rounded=0;sketch=0;glass=0;strokeColor=#CC6600;" vertex="1" parent="1">
-          <mxGeometry x="-72" y="829" width="173" height="185" as="geometry" />
+          <mxGeometry x="-56" y="829" width="173" height="185" as="geometry" />
         </mxCell>
         <mxCell id="sEvnXfBHb__BfdMJPaix-6" value="- id: UUID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;fontStyle=0" vertex="1" parent="sEvnXfBHb__BfdMJPaix-5">
           <mxGeometry y="29" width="173" height="26" as="geometry" />
@@ -1277,7 +1277,7 @@
           <mxGeometry y="159" width="173" height="26" as="geometry" />
         </mxCell>
         <mxCell id="sEvnXfBHb__BfdMJPaix-12" value="&lt;b&gt;&amp;lt;&amp;lt;enum&amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;ResourcePlanningType&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=12;labelPosition=center;verticalLabelPosition=middle;container=0;swimlaneLine=1;rounded=0;sketch=0;glass=0;strokeColor=#CC6600;" vertex="1" parent="1">
-          <mxGeometry x="-60.5" y="1048" width="150" height="159" as="geometry" />
+          <mxGeometry x="-41.5" y="1048" width="150" height="159" as="geometry" />
         </mxCell>
         <mxCell id="sEvnXfBHb__BfdMJPaix-13" value="LIVRAISON" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;container=0;fontStyle=0" vertex="1" parent="sEvnXfBHb__BfdMJPaix-12">
           <mxGeometry y="29" width="150" height="26" as="geometry" />
