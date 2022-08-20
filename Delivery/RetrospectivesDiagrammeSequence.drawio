@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T17:32:40.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="tUu6zB5d9s0SPGsPw1KQ" version="20.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-20T17:34:59.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="fOuFcelaODFZkRKVnjnB" version="20.2.5" type="github" pages="2">
   <diagram id="VvyudCjk0OaHbRk3Dm0b" name="Page-1">
     <mxGraphModel dx="474" dy="261" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -319,7 +319,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RrtKdF4E7lJTrv_LsiCU-1" value="Diagramme&amp;nbsp; de séquence&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-size: 11.5pt; line-height: 150%; font-family: Helvetica, sans-serif; background: white;&quot;&gt;supprimer&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Retrospectives&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=367;height=27;" vertex="1" parent="1">
+        <mxCell id="RrtKdF4E7lJTrv_LsiCU-1" value="Diagramme&amp;nbsp; de séquence&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-size: 11.5pt; line-height: 150%; font-family: Helvetica, sans-serif; background: white;&quot;&gt;supprimer&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Retrospective&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=367;height=27;" vertex="1" parent="1">
           <mxGeometry x="57" y="23.36293364377184" width="1798" height="890.2770663562283" as="geometry" />
         </mxCell>
         <mxCell id="RrtKdF4E7lJTrv_LsiCU-2" value="" style="group" vertex="1" connectable="0" parent="1">
