@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T17:20:16.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="8lqUhNLas-VwAAhT4PIa" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T17:21:06.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="caaFF70D_kAa6bKs-hw7" version="20.2.5" type="github">
   <diagram id="VvyudCjk0OaHbRk3Dm0b" name="Page-1">
     <mxGraphModel dx="2044" dy="1048" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -309,7 +309,7 @@
           <mxGeometry x="675" y="897" width="283" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nF9e1iKVMJp6TbMQrtLM-62" value="Diagramme&amp;nbsp; de séquence gerer &lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Retrospectives&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" vertex="1" parent="1">
-          <mxGeometry x="31" y="14" width="1646" height="1017" as="geometry" />
+          <mxGeometry x="31" y="14" width="1639" height="1017" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
