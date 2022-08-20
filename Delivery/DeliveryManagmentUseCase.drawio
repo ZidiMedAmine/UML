@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T13:11:26.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Ht1LSsPPVeLYdkoqknEw" version="20.2.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-20T13:11:50.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QjfeVySO_MkU3vnVZ18I" version="20.2.5" type="github" pages="3">
   <diagram id="5-bm3lcThZxIUOPdriQm" name="Page-1">
     <mxGraphModel dx="1635" dy="-5007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,7 +213,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MiiL5EzHuKexvq0bblBR-1" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;Cas d&#39;utilisation : Gerer&amp;nbsp; iterations et taches&lt;/span&gt;&lt;/div&gt;" style="shape=umlFrame;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=290;height=33;swimlaneFillColor=#ffffff;align=left;spacingLeft=5;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="10" y="4710" width="860" height="560" as="geometry" />
+          <mxGeometry x="10" y="4700" width="850" height="570" as="geometry" />
         </mxCell>
         <mxCell id="MiiL5EzHuKexvq0bblBR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="MiiL5EzHuKexvq0bblBR-3" target="MiiL5EzHuKexvq0bblBR-21">
           <mxGeometry relative="1" as="geometry">
