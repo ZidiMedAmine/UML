@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T16:56:43.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mspfrBVQEgDdnN-ZeQPS" version="20.2.5" type="github" pages="4">
-  <diagram id="5-bm3lcThZxIUOPdriQm" name="Page-1">
-    <mxGraphModel dx="1635" dy="-5007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-08-20T21:07:18.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pSzVZgXEmsYzuLe8vmNi" version="20.2.5" type="github" pages="5">
+  <diagram id="5-bm3lcThZxIUOPdriQm" name="Deal">
+    <mxGraphModel dx="1635" dy="-4943" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,8 +109,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="FBNtymdH8Alv-iv4_5cH" name="Page-2">
-    <mxGraphModel dx="1635" dy="-3838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="FBNtymdH8Alv-iv4_5cH" name="ResourcePlaning">
+    <mxGraphModel dx="1635" dy="-3774" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -207,8 +207,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="XDKLDXaoPqXNJZn57H7O" name="Page-3">
-    <mxGraphModel dx="1308" dy="-4006" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="XDKLDXaoPqXNJZn57H7O" name="Itération &amp; Task">
+    <mxGraphModel dx="1308" dy="-3954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -355,8 +355,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="_7BdpIun7LrtsrsUBmyU" name="Page-4">
-    <mxGraphModel dx="934" dy="-4197" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="_7BdpIun7LrtsrsUBmyU" name="Rétrospective">
+    <mxGraphModel dx="1363" dy="-3924" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -446,6 +446,104 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="km7QeJnGJVgmzlwaFSxC-19" value="&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="km7QeJnGJVgmzlwaFSxC-18">
+          <mxGeometry x="0.3623" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XnZF9wroY61gvAkyLt06" name="Dépense">
+    <mxGraphModel dx="1635" dy="-3774" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-1" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;Cas d&#39;utilisation : Gerer depenses&lt;/span&gt;&lt;/div&gt;" style="shape=umlFrame;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=265;height=32;swimlaneFillColor=#ffffff;align=left;spacingLeft=5;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="5" y="4697" width="818" height="306" as="geometry" />
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="ckc1lMMrBlEvO6AiWzIF-3" target="ckc1lMMrBlEvO6AiWzIF-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="117" y="4852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-3" value="&lt;span style=&quot;font-weight: 700&quot;&gt;Administrateur&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="4822" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-4" value="Consulter un accord" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="114" y="4829.5" width="160" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;strokeWidth=1;startSize=12;sourcePerimeterSpacing=0;labelBackgroundColor=none;verticalAlign=bottom;startArrow=open;" edge="1" parent="1" source="ckc1lMMrBlEvO6AiWzIF-4" target="ckc1lMMrBlEvO6AiWzIF-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="4852" />
+              <mxPoint x="410" y="4852" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-6" value="&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ckc1lMMrBlEvO6AiWzIF-5">
+          <mxGeometry x="0.2108" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-7" value="Consulter les depenses" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="380" y="4831.5" width="169" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-8" value="Ajouter une depense" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="645" y="4730" width="166" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-9" value="Supprimer une depense" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="645.0000000000002" y="4800" width="166" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-10" value="Modifier une depense" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="645.0000000000002" y="4870" width="166" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-11" value="" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ckc1lMMrBlEvO6AiWzIF-7" target="ckc1lMMrBlEvO6AiWzIF-8">
+          <mxGeometry x="0.4735" y="-1" width="160" relative="1" as="geometry">
+            <mxPoint x="308.28" y="4010.4799999999996" as="sourcePoint" />
+            <mxPoint x="468.28" y="4010.4799999999996" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-12" value="&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ckc1lMMrBlEvO6AiWzIF-11">
+          <mxGeometry x="0.2957" y="-2" relative="1" as="geometry">
+            <mxPoint x="11" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-13" value="" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ckc1lMMrBlEvO6AiWzIF-7" target="ckc1lMMrBlEvO6AiWzIF-9">
+          <mxGeometry x="0.385" y="3" width="160" relative="1" as="geometry">
+            <mxPoint x="308.28" y="4010.4799999999996" as="sourcePoint" />
+            <mxPoint x="468.28" y="4010.4799999999996" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-14" value="&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ckc1lMMrBlEvO6AiWzIF-13">
+          <mxGeometry x="0.3258" y="1" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-15" value="" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ckc1lMMrBlEvO6AiWzIF-7" target="ckc1lMMrBlEvO6AiWzIF-10">
+          <mxGeometry x="0.3405" y="29" width="160" relative="1" as="geometry">
+            <mxPoint x="320.28" y="4102.48" as="sourcePoint" />
+            <mxPoint x="483.28" y="4099.48" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-16" value="&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ckc1lMMrBlEvO6AiWzIF-15">
+          <mxGeometry x="0.2181" y="1" relative="1" as="geometry">
+            <mxPoint x="3" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-17" value="Consulter une depense" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="645" y="4940" width="166" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-18" value="" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ckc1lMMrBlEvO6AiWzIF-7" target="ckc1lMMrBlEvO6AiWzIF-17">
+          <mxGeometry x="0.7355" y="15" width="160" relative="1" as="geometry">
+            <mxPoint x="597.3899999999999" y="5012.48" as="sourcePoint" />
+            <mxPoint x="757.3900000000003" y="5012.48" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckc1lMMrBlEvO6AiWzIF-19" value="&lt;span style=&quot;background-color: rgb(248, 249, 250);&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ckc1lMMrBlEvO6AiWzIF-18">
           <mxGeometry x="0.3623" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
