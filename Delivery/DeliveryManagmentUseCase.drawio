@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T10:31:33.905Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="NX1aZy7U1d3EcWk1UMcO" version="20.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-20T10:32:26.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="buUcQZG69uenSw9gDiWm" version="20.2.5" type="github" pages="2">
   <diagram id="5-bm3lcThZxIUOPdriQm" name="Page-1">
     <mxGraphModel dx="1635" dy="-5007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
         <mxCell id="bddx92euk6SRgo5DXzkS-3" value="&lt;span style=&quot;font-weight: 700&quot;&gt;Administrateur&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="278" y="5690" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bddx92euk6SRgo5DXzkS-21" value="Consulter un projet" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+        <mxCell id="bddx92euk6SRgo5DXzkS-21" value="Consulter un accord" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
           <mxGeometry x="422" y="5697.5" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="bddx92euk6SRgo5DXzkS-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;strokeWidth=1;startSize=12;sourcePerimeterSpacing=0;labelBackgroundColor=none;verticalAlign=bottom;startArrow=open;" edge="1" parent="1" source="bddx92euk6SRgo5DXzkS-21" target="bddx92euk6SRgo5DXzkS-105">
@@ -136,8 +136,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bddx92euk6SRgo5DXzkS-105" value="Consulter les dépenses" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
-          <mxGeometry x="663.9999999999999" y="5699" width="181" height="51" as="geometry" />
+        <mxCell id="bddx92euk6SRgo5DXzkS-105" value="Consulter les planifications ressources" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
+          <mxGeometry x="664" y="5692" width="180" height="58" as="geometry" />
         </mxCell>
         <mxCell id="bddx92euk6SRgo5DXzkS-106" value="Ajouter une planification ressource" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" vertex="1" parent="1">
           <mxGeometry x="998" y="5577" width="160" height="51" as="geometry" />
