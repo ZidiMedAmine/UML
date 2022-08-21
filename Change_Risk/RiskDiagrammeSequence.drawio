@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T19:09:13.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="enguodE_ymmiEoPHkNdw" version="20.2.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-21T19:11:07.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="sqXKE9HKfqUALvbfSRhp" version="20.2.5" type="github" pages="2">
   <diagram id="tdwJPk2XB3sROhKPVtqK" name="Page-1">
     <mxGraphModel dx="2585" dy="1444" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -315,10 +315,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e5KyyV-V2WP39n7FiWfx" name="Page-2">
-    <mxGraphModel dx="1778" dy="993" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1117" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R8rWvNV2IlhwqvTZbYEQ-1" value="Diagramme&amp;nbsp; de séquence consulter&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;risque&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=317;height=24;" vertex="1" parent="1">
+          <mxGeometry x="68" y="27" width="1514" height="1017" as="geometry" />
+        </mxCell>
         <mxCell id="MHh_uaF2gggkVHQZjeaD-112" value="alt: TaskId" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=14;fontColor=#000000;strokeColor=#000000;fillColor=none;width=72;height=26;align=left;" vertex="1" parent="1">
           <mxGeometry x="318" y="743" width="1237" height="201" as="geometry" />
         </mxCell>
@@ -347,9 +350,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MHh_uaF2gggkVHQZjeaD-22" value="demander détail risque" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="MHh_uaF2gggkVHQZjeaD-21">
+        <mxCell id="MHh_uaF2gggkVHQZjeaD-22" value="cliquer sur icone &lt;br&gt;consulter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="MHh_uaF2gggkVHQZjeaD-21">
           <mxGeometry x="-0.3952" relative="1" as="geometry">
-            <mxPoint x="32" y="-15" as="offset" />
+            <mxPoint x="34" y="-24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MHh_uaF2gggkVHQZjeaD-23" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;" edge="1" parent="1" source="MHh_uaF2gggkVHQZjeaD-43" target="MHh_uaF2gggkVHQZjeaD-61">
