@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T17:39:23.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wMkLAbMHR2ND5HNhG4ab" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-22T17:43:12.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DPuKbe5HrPGUmPygz3L1" version="20.2.5" type="github">
   <diagram id="GG7RsVFY-ZaRTAt75dBU" name="Page-1">
-    <mxGraphModel dx="2044" dy="1048" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DRZjtDO21QbI87yVFXPy-56" value="Diagramme&amp;nbsp; de séquence gerer accord TempsEtMateriel" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;width=417;height=26;" parent="1" vertex="1">
-          <mxGeometry x="32" y="8" width="1593" height="1017" as="geometry" />
+          <mxGeometry x="32" y="7" width="1593" height="1017" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-7" value=":TimeAndMaterial&lt;br&gt;Controler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;fontColor=#CC6600;strokeColor=#CC6600;" parent="1" vertex="1">
           <mxGeometry x="541" y="65" width="130" height="950" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry x="-24" y="45" width="122" height="45" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fontSize=15;fillColor=none;" parent="DRZjtDO21QbI87yVFXPy-12" vertex="1">
-          <mxGeometry x="27.5" y="228" width="10" height="336" as="geometry" />
+          <mxGeometry x="27.5" y="200" width="10" height="336" as="geometry" />
         </mxCell>
         <mxCell id="DRZjtDO21QbI87yVFXPy-14" value=":Employee&lt;br&gt;Controler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;fontSize=15;strokeColor=#0000CC;fontColor=#0000CC;" parent="1" vertex="1">
           <mxGeometry x="1102" y="65" width="130" height="950" as="geometry" />
