@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T15:20:16.098Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6iV1fRxPmNLrt28V-j2B" version="20.2.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-08-22T07:51:30.058Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="in0T1AHUE22WoXWEEOFz" version="20.2.5" type="github" pages="8">
   <diagram id="5-bm3lcThZxIUOPdriQm" name="Deal">
-    <mxGraphModel dx="1635" dy="-4943" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="-5363" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,16 +13,16 @@
         <mxCell id="f1GB4FolLqDb_TCZjOLl-3" value="&lt;span style=&quot;font-weight: 700&quot;&gt;Administrateur&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="59" y="5971" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="f1GB4FolLqDb_TCZjOLl-11" value="Consulter la liste des projets" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
+        <mxCell id="f1GB4FolLqDb_TCZjOLl-11" value="Consulter la liste des accords" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
           <mxGeometry x="132" y="5975" width="181" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="f1GB4FolLqDb_TCZjOLl-12" value="Ajouter un projet" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
+        <mxCell id="f1GB4FolLqDb_TCZjOLl-12" value="Ajouter un accord" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
           <mxGeometry x="385" y="5918" width="160" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="f1GB4FolLqDb_TCZjOLl-13" value="Supprimer un projet" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
+        <mxCell id="f1GB4FolLqDb_TCZjOLl-13" value="Supprimer un accord" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
           <mxGeometry x="385" y="5977" width="160" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="f1GB4FolLqDb_TCZjOLl-14" value="Modifier un projet" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
+        <mxCell id="f1GB4FolLqDb_TCZjOLl-14" value="Modifier un accord" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
           <mxGeometry x="385" y="6036.5" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="f1GB4FolLqDb_TCZjOLl-15" value="" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.534;exitY=-0.061;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="f1GB4FolLqDb_TCZjOLl-11" target="f1GB4FolLqDb_TCZjOLl-12" edge="1">
@@ -61,7 +61,7 @@
             <mxPoint x="6" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f1GB4FolLqDb_TCZjOLl-21" value="Consulter un projet" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
+        <mxCell id="f1GB4FolLqDb_TCZjOLl-21" value="Consulter un accord" style="shape=ellipse;html=1;strokeWidth=3;fontStyle=1;whiteSpace=wrap;align=center;perimeter=ellipsePerimeter;fillColor=#dae8fc;strokeColor=#67BFBC;" parent="1" vertex="1">
           <mxGeometry x="385" y="6096" width="160" height="45" as="geometry" />
         </mxCell>
         <mxCell id="f1GB4FolLqDb_TCZjOLl-22" value="" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.559;exitY=1.031;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="f1GB4FolLqDb_TCZjOLl-11" target="f1GB4FolLqDb_TCZjOLl-21" edge="1">
